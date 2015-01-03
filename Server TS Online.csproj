@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9A852819-59D4-41C7-8DBF-6133396AC541}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Server TS Online</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-{76F536D7-8FD8-4B0E-8D69-75FC07FC1537}.cs" />
+    <Compile Include="0S3Qo4yIEbfEJKcxXW\i4iw8SpaFI6rqcQywY.cs" />
+    <Compile Include="644Wu2DWvcWVDNqk8i\3mssI7NZxbwfRitosh.cs" />
+    <Compile Include="DI8TY5bwqpaaMjTOyG\JpQ8gEATWAHIpg0b0B.cs" />
+    <Compile Include="KCrYf5FMCjhgoqphm4\Mulkts7rbVeJtTF0Ma.cs" />
+    <Compile Include="kN9brGSTApbNPXTXkw\mqQuru3KPGtZmiCrl0.cs" />
+    <Compile Include="LHgl4yxBZtFUmrale9\nkOHS02WeUR2u5xkyN.cs" />
+    <Compile Include="Mguibfk6rQbauK6c0H\INRlpxuO15vQCyaW6F.cs" />
+    <Compile Include="mI8ftgPHdarBr2Ldoi\yjR5mT8ly63SrmNoeB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server_TS_Online.My\MySettings.cs" />
+    <Compile Include="Server_TS_Online\Client.cs" />
+    <Compile Include="Server_TS_Online\clsListviewSorter.cs" />
+    <Compile Include="Server_TS_Online\Data.cs" />
+    <Compile Include="Server_TS_Online\DataStructure.cs" />
+    <Compile Include="Server_TS_Online\FChat.cs" />
+    <Compile Include="Server_TS_Online\FormServer.cs" />
+    <Compile Include="Server_TS_Online\FTalk.cs" />
+    <Compile Include="Server_TS_Online\FWalk.cs" />
+    <Compile Include="Server_TS_Online\Server.cs" />
+    <Compile Include="Server_TS_Online\TheBattle.cs" />
+    <Compile Include="UKcdFWMcpVUThLlYXi\F6EPBOmfUID684xeWx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="02cbe430-5071-47f9-9bc7-b85d804ff387" />
+    <EmbeddedResource Include="1b16157d-4c2f-4766-bcea-ec5f863497a0" />
+    <EmbeddedResource Include="dbc1783b-c6ca-4f9e-aedc-463222881395" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
