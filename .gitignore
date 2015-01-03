@@ -1,0 +1,5 @@
+*.suo
+*.cache
+*.manifest
+*.exe
+obj/x86/Debug/Server TS Online.csproj.FileListAbsolute.txt
