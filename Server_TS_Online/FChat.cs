@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.Runtime.CompilerServices;
 namespace Server_TS_Online
@@ -39,7 +39,7 @@ namespace Server_TS_Online
 		}
 		static FChat()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

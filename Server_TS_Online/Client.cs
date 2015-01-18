@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.Collections.Generic;
 using System.Data.OleDb;
@@ -73,10 +73,10 @@ namespace Server_TS_Online
 		public int idtalking;
 		public string Typetalk;
 		public int SelectMenu;
-		private int[] 4DaMrGOhr;
+		private int[] JuneVariable05;
 		public Socket _socket;
 		public byte[] _buffer;
-		private string 1CcbCDnbw;
+		private string JuneVariable06;
 		private Random TB0joVLX7;
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Client(Socket _c)
@@ -344,12 +344,12 @@ namespace Server_TS_Online
 		}
 		[DebuggerStepThrough, CompilerGenerated]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void _Lambda$__1(object a0)
+		private void JuneMethod01(object a0)
 		{
 		}
 		static Client()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

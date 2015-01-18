@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.CodeDom.Compiler;
 using System.ComponentModel;
@@ -12,7 +12,7 @@ namespace Server_TS_Online.My
 	{
 		private static MySettings tAV2t3MBF;
 		private static bool eABx5rGRa;
-		private static object 9VZPBJlL0;
+		private static object JuneMethod05;
 		public static MySettings Default
 		{
 			[MethodImpl(MethodImplOptions.NoInlining)]
@@ -168,9 +168,9 @@ namespace Server_TS_Online.My
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static MySettings()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 			MySettings.tAV2t3MBF = (MySettings)SettingsBase.Synchronized(new MySettings());
-			MySettings.9VZPBJlL0 = RuntimeHelpers.GetObjectValue(new object());
+			MySettings.JuneMethod05 = RuntimeHelpers.GetObjectValue(new object());
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public MySettings()

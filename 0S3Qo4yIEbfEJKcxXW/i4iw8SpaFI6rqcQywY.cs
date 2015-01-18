@@ -6,35 +6,35 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
-namespace 0S3Qo4yIEbfEJKcxXW
+namespace JuneNameSpace1
 {
-	internal class i4iw8SpaFI6rqcQywY
+	internal class JuneClass02
 	{
-		internal class 84D4SUUv8aCxwwEk9i : Attribute
+		internal class JuneClass01 : Attribute
 		{
-			internal class rvhS2dtl7YDTvEwe6r<T>
+			internal class JuneClass03<T>
 			{
 				[MethodImpl(MethodImplOptions.NoInlining)]
-				public rvhS2dtl7YDTvEwe6r()
+				public JuneClass03()
 				{
 				}
-				static rvhS2dtl7YDTvEwe6r()
+				static JuneClass03()
 				{
-					i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+					JuneClass02.UUCbAVAAM();
 				}
 			}
-			[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+			[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 			[MethodImpl(MethodImplOptions.NoInlining)]
-			public 84D4SUUv8aCxwwEk9i(object obj)
+			public JuneClass01(object obj)
 			{
 			}
-			static 84D4SUUv8aCxwwEk9i()
+			static JuneClass01()
 			{
-				i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+				JuneClass02.UUCbAVAAM();
 			}
 		}
 		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
-		internal delegate uint jlJHK7gi8diyf4J5AN([MarshalAs(UnmanagedType.U8)] ref ulong, IntPtr, IntPtr, [MarshalAs(UnmanagedType.U4)] uint, ref IntPtr, ref uint);
+		internal delegate uint jlJHK7gi8diyf4J5AN([MarshalAs(UnmanagedType.U8)] ref ulong JuneVariable22, IntPtr JuneVariable23, IntPtr JuneVariable24, [MarshalAs(UnmanagedType.U4)] uint JuneVariable25, ref IntPtr JuneVariable26, ref uint JuneVariable27);
 		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
 		private delegate IntPtr IxwmuCwIGBv73v2GAK();
 		[Flags]
@@ -52,49 +52,49 @@ namespace 0S3Qo4yIEbfEJKcxXW
 		private static int[] k5jBDIlBY;
 		private static int STvABpUsY;
 		private static bool A87FMUFNt;
-		private static SortedList 136coMnpc;
+		private static SortedList JuneVariable07;
 		private static int sLOGRfnRh;
 		private static long FubUljsFA;
-		internal static i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN iTVaN1Ecw;
-		internal static i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN 6sGYIe3ft;
+		internal static JuneClass02.jlJHK7gi8diyf4J5AN iTVaN1Ecw;
+		internal static JuneClass02.jlJHK7gi8diyf4J5AN JuneVariable08;
 		private static long blZLB0nwo;
 		private static int YoG1i12C3;
 		private static byte[][] PltXnXnAg;
 		private static long[] Q71kSSoJq;
-		private static bool 8I7fLPWAg;
-		private static IntPtr 9gdN9Qd6v;
+		private static bool JuneVariable09;
+		private static IntPtr JuneVariable10;
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		static i4iw8SpaFI6rqcQywY()
+		static JuneClass02()
 		{
-			i4iw8SpaFI6rqcQywY.Jjoe7SSfu = new byte[0];
-			i4iw8SpaFI6rqcQywY.UIkStw4EW = new byte[0];
-			i4iw8SpaFI6rqcQywY.kYx9oyWkR = new byte[0];
-			i4iw8SpaFI6rqcQywY.XSGqsJpqK = new byte[0];
-			i4iw8SpaFI6rqcQywY.vxRtbS8Lr = IntPtr.Zero;
-			i4iw8SpaFI6rqcQywY.XHiTNFeOm = IntPtr.Zero;
-			i4iw8SpaFI6rqcQywY.BtAnvCl99 = new string[0];
-			i4iw8SpaFI6rqcQywY.k5jBDIlBY = new int[0];
-			i4iw8SpaFI6rqcQywY.STvABpUsY = 1;
-			i4iw8SpaFI6rqcQywY.A87FMUFNt = false;
-			i4iw8SpaFI6rqcQywY.136coMnpc = new SortedList();
-			i4iw8SpaFI6rqcQywY.sLOGRfnRh = 0;
-			i4iw8SpaFI6rqcQywY.FubUljsFA = 0L;
-			i4iw8SpaFI6rqcQywY.iTVaN1Ecw = null;
-			i4iw8SpaFI6rqcQywY.6sGYIe3ft = null;
-			i4iw8SpaFI6rqcQywY.blZLB0nwo = 0L;
-			i4iw8SpaFI6rqcQywY.YoG1i12C3 = 0;
-			i4iw8SpaFI6rqcQywY.PltXnXnAg = new byte[0][];
-			i4iw8SpaFI6rqcQywY.Q71kSSoJq = new long[0];
-			i4iw8SpaFI6rqcQywY.8I7fLPWAg = false;
-			i4iw8SpaFI6rqcQywY.9gdN9Qd6v = IntPtr.Zero;
+			JuneClass02.Jjoe7SSfu = new byte[0];
+			JuneClass02.UIkStw4EW = new byte[0];
+			JuneClass02.kYx9oyWkR = new byte[0];
+			JuneClass02.XSGqsJpqK = new byte[0];
+			JuneClass02.vxRtbS8Lr = IntPtr.Zero;
+			JuneClass02.XHiTNFeOm = IntPtr.Zero;
+			JuneClass02.BtAnvCl99 = new string[0];
+			JuneClass02.k5jBDIlBY = new int[0];
+			JuneClass02.STvABpUsY = 1;
+			JuneClass02.A87FMUFNt = false;
+			JuneClass02.JuneVariable07 = new SortedList();
+			JuneClass02.sLOGRfnRh = 0;
+			JuneClass02.FubUljsFA = 0L;
+			JuneClass02.iTVaN1Ecw = null;
+			JuneClass02.JuneVariable08 = null;
+			JuneClass02.blZLB0nwo = 0L;
+			JuneClass02.YoG1i12C3 = 0;
+			JuneClass02.PltXnXnAg = new byte[0][];
+			JuneClass02.Q71kSSoJq = new long[0];
+			JuneClass02.JuneVariable09 = false;
+			JuneClass02.JuneVariable10 = IntPtr.Zero;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		private void DLaEvWXXefJHO()
 		{
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		static string lxGHuH450(int num)
+		static public string lxGHuH450(int num)
 		{
 			int arg_EBB_0 = 48;
 			int num5;
@@ -223,7 +223,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 40:
 							goto IL_4CB;
 						case 41:
-							i4iw8SpaFI6rqcQywY.7xiO2OLBeuRePZrsCT(rijndaelManaged, CipherMode.CBC);
+							JuneClass02.JuneMethod17(rijndaelManaged, CipherMode.CBC);
 							arg_EC3_0 = 105;
 							continue;
 						case 42:
@@ -311,7 +311,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 75:
 							num3 = 250 - 83;
 							num2 = 155;
-							if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto IL_109;
 							}
@@ -347,7 +347,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 89:
 							array[24] = (byte)num3;
 							num2 = 149;
-							if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (!JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto Block_23;
 							}
@@ -371,13 +371,13 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							arg_EC3_0 = 99;
 							continue;
 						case 96:
-							i4iw8SpaFI6rqcQywY.UtKAwPPRgmYr51lDaR(i4iw8SpaFI6rqcQywY.WXlyoAby6uHZKPHu4p(binaryReader), 0L);
+							JuneClass02.UtKAwPPRgmYr51lDaR(JuneClass02.WXlyoAby6uHZKPHu4p(binaryReader), 0L);
 							arg_EC3_0 = 158;
 							continue;
 						case 97:
 							array[18] = 142 - 103;
 							num2 = 110;
-							if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto Block_24;
 							}
@@ -491,7 +491,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 137:
 							num4 = 75 + 102;
 							num2 = 47;
-							if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (!JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto Block_25;
 							}
@@ -529,7 +529,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 149:
 							array[24] = 9 + 109;
 							num2 = 145;
-							if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto IL_1DDE;
 							}
@@ -557,7 +557,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 159:
 							array[22] = 208 - 69;
 							num2 = 127;
-							if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (!JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto Block_26;
 							}
@@ -630,7 +630,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							goto IL_925;
 						case 185:
 							array[3] = 40 + 66;
-							if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (!JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto Block_1;
 							}
@@ -687,7 +687,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 203:
 							num3 = 125 + 22;
 							num2 = 210;
-							if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto IL_2C7;
 							}
@@ -785,7 +785,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 238:
 							array4[1] = array2[0];
 							num2 = 142;
-							if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto IL_4A7;
 							}
@@ -823,7 +823,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 250:
 							num4 = 0 + 104;
 							num2 = 74;
-							if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto IL_1E1F;
 							}
@@ -857,7 +857,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 259:
 							array[8] = 208 - 69;
 							num2 = 315;
-							if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto IL_5CB;
 							}
@@ -871,7 +871,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 263:
 							array[7] = (byte)num3;
 							num2 = 25;
-							if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto Block_18;
 							}
@@ -887,7 +887,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 267:
 							array[30] = (byte)num3;
 							num2 = 10;
-							if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+							if (JuneClass02.e4boqgH5OvlqMPXfkh())
 							{
 								goto Block_17;
 							}
@@ -915,7 +915,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 277:
 							num3 = 218 + 26;
 							num2 = 178;
-							if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+							if (JuneClass02.iQkb6C2jiar7foAZda())
 							{
 								goto IL_3E0;
 							}
@@ -1035,7 +1035,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						case 317:
 							goto IL_2096;
 						case 318:
-							i4iw8SpaFI6rqcQywY.iT2Zc7TC1KRtybqYOo(cryptoStream);
+							JuneClass02.iT2Zc7TC1KRtybqYOo(cryptoStream);
 							arg_EC3_0 = 206;
 							continue;
 						case 319:
@@ -1075,7 +1075,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IL_109:
 						num3 = 106 + 16;
 						num2 = 89;
-						if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+						if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 						{
 							goto IL_12B;
 						}
@@ -1103,7 +1103,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IL_98A:
 						array[13] = 24 + 30;
 						num2 = 271;
-						if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+						if (JuneClass02.e4boqgH5OvlqMPXfkh())
 						{
 							goto Block_9;
 						}
@@ -1163,7 +1163,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IL_192B:
 						num4 = 152 - 50;
 						num2 = 153;
-						if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+						if (JuneClass02.e4boqgH5OvlqMPXfkh())
 						{
 							goto Block_19;
 						}
@@ -1173,11 +1173,11 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						arg_EC3_0 = 93;
 						continue;
 						IL_2133:
-						num5 = i4iw8SpaFI6rqcQywY.W31HmkhI8ctciLqOjP(i4iw8SpaFI6rqcQywY.kYx9oyWkR, num);
+						num5 = JuneClass02.W31HmkhI8ctciLqOjP(JuneClass02.kYx9oyWkR, num);
 						arg_EC3_0 = 325;
 						continue;
 						IL_4EF:
-						if (i4iw8SpaFI6rqcQywY.kYx9oyWkR.Length == 0)
+						if (JuneClass02.kYx9oyWkR.Length == 0)
 						{
 							goto Block_3;
 						}
@@ -1209,7 +1209,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IL_262E:
 						array[11] = (byte)num3;
 						num2 = 134;
-						if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+						if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 						{
 							goto IL_264F;
 						}
@@ -1241,7 +1241,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1BC:
 					array[6] = (byte)num3;
 					num2 = 37;
-					if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						goto IL_1DD;
 					}
@@ -1257,7 +1257,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_460:
 					array[25] = 225 + 20;
 					num2 = 273;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1271,9 +1271,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 106;
 					continue;
 					IL_E84:
-					i4iw8SpaFI6rqcQywY.UcCXHkWvPuy88FRpYN(binaryReader);
+					JuneClass02.UcCXHkWvPuy88FRpYN(binaryReader);
 					num2 = 91;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1281,7 +1281,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_550:
 					array4[7] = array2[3];
 					num2 = 90;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1305,7 +1305,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_696:
 					array3[3] = (byte)num4;
 					num2 = 141;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1329,7 +1329,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_7A0:
 					num3 = 231 - 77;
 					num2 = 7;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1337,7 +1337,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1B28:
 					array[17] = 40 + 79;
 					num2 = 14;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1345,7 +1345,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_7E6:
 					array[14] = (byte)num3;
 					num2 = 57;
-					if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						goto IL_807;
 					}
@@ -1353,14 +1353,14 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_81F:
 					array[1] = 194 + 30;
 					num2 = 92;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
 					IL_847:
 					array3[11] = (byte)num4;
 					num2 = 266;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1370,9 +1370,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 44;
 					continue;
 					IL_8A2:
-					binaryReader = new BinaryReader(i4iw8SpaFI6rqcQywY.xsE5O8n65y5VCae5hI(i4iw8SpaFI6rqcQywY.BvnFWyxYFCAHU8EJR4(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly, "02cbe430-5071-47f9-9bc7-b85d804ff387"));
+					binaryReader = new BinaryReader(JuneClass02.xsE5O8n65y5VCae5hI(JuneClass02.BvnFWyxYFCAHU8EJR4(typeof(JuneClass02).TypeHandle).Assembly, "02cbe430-5071-47f9-9bc7-b85d804ff387"));
 					num2 = 96;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1400,7 +1400,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_A66:
 					array[1] = (byte)num3;
 					num2 = 233;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1439,7 +1439,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_CCA:
 					array[11] = (byte)num3;
 					num2 = 245;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1447,7 +1447,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_D39:
 					array[31] = 49 + 22;
 					num2 = 288;
-					if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						goto IL_D61;
 					}
@@ -1462,7 +1462,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_DB6:
 					num3 = 252 - 84;
 					num2 = 213;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1480,7 +1480,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					continue;
 					Block_16:
 					num2 = 160;
-					if (i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						goto IL_13F3;
 					}
@@ -1589,7 +1589,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_2781:
 					num3 = 35 + 78;
 					num2 = 177;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1617,14 +1617,14 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1BA3:
 					array3[5] = 32 + 6;
 					num2 = 282;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
 					IL_1BCB:
-					array2 = i4iw8SpaFI6rqcQywY.pjtv7wlSErjY5BtmE7(i4iw8SpaFI6rqcQywY.FxJgLnVbnqjIi42wBj(i4iw8SpaFI6rqcQywY.BvnFWyxYFCAHU8EJR4(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly));
+					array2 = JuneClass02.pjtv7wlSErjY5BtmE7(JuneClass02.FxJgLnVbnqjIi42wBj(JuneClass02.BvnFWyxYFCAHU8EJR4(typeof(JuneClass02).TypeHandle).Assembly));
 					num2 = 33;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1635,7 +1635,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1C16:
 					num4 = 206 - 119;
 					num2 = 164;
-					if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						goto IL_1C38;
 					}
@@ -1643,7 +1643,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1CA6:
 					array[19] = 126 - 42;
 					num2 = 40;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1651,7 +1651,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_1D1C:
 					array[26] = 192 - 93;
 					num2 = 189;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1661,20 +1661,20 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 285;
 					continue;
 					IL_1E3E:
-					i4iw8SpaFI6rqcQywY.iT2Zc7TC1KRtybqYOo(memoryStream);
+					JuneClass02.iT2Zc7TC1KRtybqYOo(memoryStream);
 					num2 = 318;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
 					IL_1E58:
-					i4iw8SpaFI6rqcQywY.6qo3R5Moc2aFafSYOE(true);
+					JuneClass02.JuneMethod16(true);
 					num2 = 232;
 					continue;
 					IL_1E9F:
 					array3[0] = 183 - 61;
 					num2 = 317;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1683,16 +1683,16 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 20;
 					continue;
 					IL_1F00:
-					transform = i4iw8SpaFI6rqcQywY.i08MqbKu87rMCkLTCX(rijndaelManaged, array5, array4);
+					transform = JuneClass02.i08MqbKu87rMCkLTCX(rijndaelManaged, array5, array4);
 					num2 = 170;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
 					IL_1F1E:
 					num3 = 224 - 74;
 					num2 = 227;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1701,7 +1701,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 283;
 					continue;
 					IL_1F5D:
-					i4iw8SpaFI6rqcQywY.kYx9oyWkR = i4iw8SpaFI6rqcQywY.1YvaQSmm9EIa0ThnyO(memoryStream);
+					JuneClass02.kYx9oyWkR = JuneClass02.JuneMethod18(memoryStream);
 					num2 = 42;
 					if (!false)
 					{
@@ -1722,7 +1722,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_200D:
 					array3[3] = 217 - 72;
 					num2 = 12;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1791,7 +1791,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_24AD:
 					array[28] = 109 + 121;
 					num2 = 119;
-					if (!i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (!JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						goto IL_24D5;
 					}
@@ -1800,7 +1800,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_256A:
 					array[14] = (byte)num3;
 					num2 = 3;
-					if (!i4iw8SpaFI6rqcQywY.iQkb6C2jiar7foAZda())
+					if (!JuneClass02.iQkb6C2jiar7foAZda())
 					{
 						continue;
 					}
@@ -1812,7 +1812,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					IL_2686:
 					num3 = 234 - 78;
 					num2 = 166;
-					if (i4iw8SpaFI6rqcQywY.e4boqgH5OvlqMPXfkh())
+					if (JuneClass02.e4boqgH5OvlqMPXfkh())
 					{
 						continue;
 					}
@@ -1886,7 +1886,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_EBB_0 = 231;
 				continue;
 				IL_288:
-				byte[] array6 = i4iw8SpaFI6rqcQywY.ZuhSs5fisPNq7YiwLa(binaryReader, (int)i4iw8SpaFI6rqcQywY.grDuCRBbfcTeBmroCF(i4iw8SpaFI6rqcQywY.WXlyoAby6uHZKPHu4p(binaryReader)));
+				byte[] array6 = JuneClass02.ZuhSs5fisPNq7YiwLa(binaryReader, (int)JuneClass02.grDuCRBbfcTeBmroCF(JuneClass02.WXlyoAby6uHZKPHu4p(binaryReader)));
 				arg_EBB_0 = 234;
 				continue;
 				IL_312:
@@ -2025,7 +2025,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_EBB_0 = 0;
 				continue;
 				IL_148D:
-				i4iw8SpaFI6rqcQywY.Uvv5DVuYSAipGboKIp(cryptoStream);
+				JuneClass02.Uvv5DVuYSAipGboKIp(cryptoStream);
 				arg_EBB_0 = 38;
 				continue;
 				IL_14FD:
@@ -2113,7 +2113,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_EBB_0 = 101;
 				continue;
 				IL_1EEA:
-				i4iw8SpaFI6rqcQywY.VGXcZQ0qiNXio1ETPy(cryptoStream, array6, 0, array6.Length);
+				JuneClass02.VGXcZQ0qiNXio1ETPy(cryptoStream, array6, 0, array6.Length);
 				arg_EBB_0 = 236;
 				continue;
 				IL_1FEE:
@@ -2250,28 +2250,28 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			try
 			{
 				IL_29F4:
-				return i4iw8SpaFI6rqcQywY.kE0et1Nso9mCdxld4G(i4iw8SpaFI6rqcQywY.NZfjav7xLAopBVVXBd(), i4iw8SpaFI6rqcQywY.kYx9oyWkR, num + 4, num5);
+				return JuneClass02.kE0et1Nso9mCdxld4G(JuneClass02.NZfjav7xLAopBVVXBd(), JuneClass02.kYx9oyWkR, num + 4, num5);
 			}
 			catch
 			{
 			}
 			return "";
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static string 87T2NGQfS(string s)
+		internal static string JuneVariable04(string s)
 		{
 			"{11111-22222-50001-00000}".Trim();
 			byte[] array = Convert.FromBase64String(s);
 			return Encoding.Unicode.GetString(array, 0, array.Length);
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static uint 5Dpx2hsoH([MarshalAs(UnmanagedType.U8)] ref ulong ptr, IntPtr intPtr, IntPtr intPtr2, [MarshalAs(UnmanagedType.U4)] uint num, ref IntPtr ptr2, ref uint ptr3)
+		internal static uint JuneMethod06([MarshalAs(UnmanagedType.U8)] ref ulong ptr, IntPtr intPtr, IntPtr intPtr2, [MarshalAs(UnmanagedType.U4)] uint num, ref IntPtr ptr2, ref uint ptr3)
 		{
-			if (i4iw8SpaFI6rqcQywY.8I7fLPWAg)
+			if (JuneClass02.JuneVariable09)
 			{
-				if (i4iw8SpaFI6rqcQywY.9gdN9Qd6v == Marshal.ReadIntPtr(intPtr2, IntPtr.Size))
+				if (JuneClass02.JuneVariable10 == Marshal.ReadIntPtr(intPtr2, IntPtr.Size))
 				{
 					if (IntPtr.Size == 4)
 					{
@@ -2285,11 +2285,11 @@ namespace 0S3Qo4yIEbfEJKcxXW
 								num3 -= 1879048192;
 								flag = true;
 							}
-							if (num3 >= i4iw8SpaFI6rqcQywY.PltXnXnAg.Length || i4iw8SpaFI6rqcQywY.Q71kSSoJq[num3] != (long)num2)
+							if (num3 >= JuneClass02.PltXnXnAg.Length || JuneClass02.Q71kSSoJq[num3] != (long)num2)
 							{
 								goto IL_1A3;
 							}
-							byte[] array = i4iw8SpaFI6rqcQywY.PltXnXnAg[num3];
+							byte[] array = JuneClass02.PltXnXnAg[num3];
 							IntPtr intPtr3 = Marshal.AllocCoTaskMem(array.Length);
 							Marshal.Copy(array, 0, intPtr3, array.Length);
 							uint result;
@@ -2302,7 +2302,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							}
 							Marshal.WriteIntPtr(intPtr2, 8, intPtr3);
 							Marshal.WriteInt32(intPtr2, 12, array.Length);
-							result = i4iw8SpaFI6rqcQywY.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
+							result = JuneClass02.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
 							return result;
 						}
 						catch
@@ -2320,9 +2320,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							num5 -= 1879048192;
 							flag2 = true;
 						}
-						if (num5 < i4iw8SpaFI6rqcQywY.PltXnXnAg.Length && i4iw8SpaFI6rqcQywY.Q71kSSoJq[num5] == num4)
+						if (num5 < JuneClass02.PltXnXnAg.Length && JuneClass02.Q71kSSoJq[num5] == num4)
 						{
-							byte[] array2 = i4iw8SpaFI6rqcQywY.PltXnXnAg[num5];
+							byte[] array2 = JuneClass02.PltXnXnAg[num5];
 							IntPtr intPtr4 = Marshal.AllocCoTaskMem(array2.Length);
 							Marshal.Copy(array2, 0, intPtr4, array2.Length);
 							if (flag2)
@@ -2341,19 +2341,19 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					}
 				}
 				IL_1A3:
-				return i4iw8SpaFI6rqcQywY.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
+				return JuneClass02.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
 			}
-			i4iw8SpaFI6rqcQywY.8I7fLPWAg = true;
-			i4iw8SpaFI6rqcQywY.9gdN9Qd6v = Marshal.ReadIntPtr(intPtr2, IntPtr.Size);
-			return i4iw8SpaFI6rqcQywY.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
+			JuneClass02.JuneVariable09 = true;
+			JuneClass02.JuneVariable10 = Marshal.ReadIntPtr(intPtr2, IntPtr.Size);
+			return JuneClass02.iTVaN1Ecw(ref ptr, intPtr, intPtr2, num, ref ptr2, ref ptr3);
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static void v7TIv74O9()
 		{
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		static void UUCbAVAAM()
+		static public void UUCbAVAAM()
 		{
 			int arg_25C9_0 = 18;
 			while (true)
@@ -2377,7 +2377,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				bool flag;
 				IntPtr intPtr3;
 				byte[] array6;
-				i4iw8SpaFI6rqcQywY.IxwmuCwIGBv73v2GAK ixwmuCwIGBv73v2GAK;
+				JuneClass02.IxwmuCwIGBv73v2GAK ixwmuCwIGBv73v2GAK;
 				IntPtr intPtr5;
 				int num8;
 				MemoryStream memoryStream;
@@ -2407,7 +2407,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 3:
 					array[1] = 108;
 					num2 = 33;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -2434,14 +2434,14 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					goto IL_25C5;
 				case 7:
 				{
-					string text = i4iw8SpaFI6rqcQywY.W0PAOeus1xk90CI41s(i4iw8SpaFI6rqcQywY.cAihHWIWrZgH5CyWi0(), array);
+					string text = JuneClass02.W0PAOeus1xk90CI41s(JuneClass02.cAihHWIWrZgH5CyWi0(), array);
 					arg_25C9_0 = 148;
 					continue;
 				}
 				case 8:
 					array[2] = 99;
 					num2 = 334;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -2475,7 +2475,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 17:
 					goto IL_39E0;
 				case 18:
-					if (!i4iw8SpaFI6rqcQywY.A87FMUFNt)
+					if (!JuneClass02.A87FMUFNt)
 					{
 						arg_25C9_0 = 289;
 						continue;
@@ -2494,7 +2494,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					}
 					goto IL_25C5;
 				case 21:
-					if (i4iw8SpaFI6rqcQywY.cgUlWcZIS1BMQM9tuC() == 4)
+					if (JuneClass02.cgUlWcZIS1BMQM9tuC() == 4)
 					{
 						arg_25C9_0 = 216;
 						continue;
@@ -2509,7 +2509,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 24:
 					array3[1] = 254 - 84;
 					num2 = 430;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_2DA4;
 					}
@@ -2519,7 +2519,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 26:
 					num = 138 - 89;
 					num2 = 105;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_3915;
 					}
@@ -2569,7 +2569,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 230;
 					goto IL_25C1;
 				case 39:
-					if (i4iw8SpaFI6rqcQywY.OSDC49YxsgtdDDT0Dr(i4iw8SpaFI6rqcQywY.ot1fbKGIkVL4f5hJ0Q(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly)).Length == 2)
+					if (JuneClass02.OSDC49YxsgtdDDT0Dr(JuneClass02.ot1fbKGIkVL4f5hJ0Q(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly)).Length == 2)
 					{
 						arg_25C1_0 = 41;
 						goto IL_25C1;
@@ -2580,7 +2580,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C9_0 = 20;
 					continue;
 				case 41:
-					if (i4iw8SpaFI6rqcQywY.0V0mZO3XQeKKWWM0nC(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly) != null)
+					if (JuneClass02.JuneMethod23(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly) != null)
 					{
 						arg_25C9_0 = 218;
 						continue;
@@ -2613,7 +2613,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 48:
 					array2[10] = (byte)num;
 					num2 = 235;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_16E8;
 					}
@@ -2679,7 +2679,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 63:
 					array3[3] = 99 + 112;
 					num2 = 60;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_1DBE;
 					}
@@ -2717,7 +2717,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 70:
 					num = 251 - 83;
 					num2 = 81;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_3424;
 					}
@@ -2737,18 +2737,18 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 74:
 				{
 					IntPtr intPtr2;
-					i4iw8SpaFI6rqcQywY.tVGxTyyfRdjJEEsPZv(new IntPtr(value), intPtr2);
+					JuneClass02.tVGxTyyfRdjJEEsPZv(new IntPtr(value), intPtr2);
 					arg_25C1_0 = 463;
 					goto IL_25C1;
 				}
 				case 75:
-					i4iw8SpaFI6rqcQywY.Qu4Wq8vyTj3ZeGg08n(cryptoStream);
+					JuneClass02.Qu4Wq8vyTj3ZeGg08n(cryptoStream);
 					num2 = 425;
 					goto IL_25C5;
 				case 76:
 					array[8] = 46;
 					num2 = 27;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_2F2D;
 					}
@@ -2773,7 +2773,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 82:
 					goto IL_1CC3;
 				case 83:
-					num6 = i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader) - num7;
+					num6 = JuneClass02.JuneMethod24(binaryReader) - num7;
 					arg_25C1_0 = 326;
 					goto IL_25C1;
 				case 84:
@@ -2793,7 +2793,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 89:
 					array3[13] = (byte)num3;
 					num2 = 93;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_3B67;
 					}
@@ -2865,7 +2865,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 108:
 					array2[24] = 165 - 55;
 					num2 = 347;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -2876,9 +2876,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						arg_25C9_0 = 207;
 						continue;
 					}
-					i4iw8SpaFI6rqcQywY.FG0xWVXJskBCSn2mLj(intPtr3, num5);
+					JuneClass02.FG0xWVXJskBCSn2mLj(intPtr3, num5);
 					num2 = 259;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -2898,7 +2898,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 113:
 					array5[7] = array4[3];
 					num2 = 295;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -2906,7 +2906,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 114:
 					array3[10] = (byte)num3;
 					num2 = 94;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -2937,7 +2937,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					goto IL_25C1;
 				case 120:
 				{
-					IntPtr intPtr2 = i4iw8SpaFI6rqcQywY.PyJ2aWfGR34oPcWg3T(i4iw8SpaFI6rqcQywY.6sGYIe3ft);
+					IntPtr intPtr2 = JuneClass02.PyJ2aWfGR34oPcWg3T(JuneClass02.JuneVariable08);
 					arg_25C1_0 = 413;
 					goto IL_25C1;
 				}
@@ -3037,7 +3037,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					goto IL_25C1;
 				case 144:
 				{
-					IntPtr intPtr = i4iw8SpaFI6rqcQywY.IYyCVurlZmcGVWqg2b(i4iw8SpaFI6rqcQywY.Dn81cHh6sdV6rtL9ED(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly)[0]);
+					IntPtr intPtr = JuneClass02.IYyCVurlZmcGVWqg2b(JuneClass02.Dn81cHh6sdV6rtL9ED(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly)[0]);
 					arg_25C9_0 = 49;
 					continue;
 				}
@@ -3046,7 +3046,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 146:
 					num = 65 + 39;
 					num2 = 390;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_3C24;
 					}
@@ -3056,18 +3056,18 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 148:
 				{
 					string text;
-					IntPtr intPtr4 = i4iw8SpaFI6rqcQywY.G5vP1sU07(text);
+					IntPtr intPtr4 = JuneClass02.G5vP1sU07(text);
 					arg_25C9_0 = 59;
 					continue;
 				}
 				case 149:
-					intPtr5 = i4iw8SpaFI6rqcQywY.yyG1fs8fvBC5rOWeN7(ixwmuCwIGBv73v2GAK);
+					intPtr5 = JuneClass02.yyG1fs8fvBC5rOWeN7(ixwmuCwIGBv73v2GAK);
 					arg_25C9_0 = 123;
 					continue;
 				case 150:
 					array[9] = 108;
 					num2 = 7;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -3079,12 +3079,12 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 153:
 					try
 					{
-						i4iw8SpaFI6rqcQywY.h5uscqxMGjlmTUBWbN(true);
+						JuneClass02.h5uscqxMGjlmTUBWbN(true);
 					}
 					catch
 					{
 					}
-					binaryReader = new BinaryReader(i4iw8SpaFI6rqcQywY.Moa5vjbeYZhMA225GP(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly, "1b16157d-4c2f-4766-bcea-ec5f863497a0"));
+					binaryReader = new BinaryReader(JuneClass02.Moa5vjbeYZhMA225GP(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly, "1b16157d-4c2f-4766-bcea-ec5f863497a0"));
 					arg_25C1_0 = 330;
 					goto IL_25C1;
 				case 154:
@@ -3094,7 +3094,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 155:
 					num = 93 + 98;
 					num2 = 45;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -3156,7 +3156,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 171:
 					array[5] = 106;
 					num2 = 53;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_3367;
 					}
@@ -3186,9 +3186,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 373;
 					goto IL_25C1;
 				case 178:
-					i4iw8SpaFI6rqcQywY.v7TIv74O9();
+					JuneClass02.v7TIv74O9();
 					num2 = 466;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -3196,7 +3196,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 179:
 					array2[22] = 194 - 64;
 					num2 = 166;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_1135;
 					}
@@ -3212,7 +3212,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 183:
 					array2[26] = (byte)num;
 					num2 = 239;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_34B3;
 					}
@@ -3228,7 +3228,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 186:
 					num = 82 + 20;
 					num2 = 433;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -3294,7 +3294,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 202:
 					array2[1] = (byte)num;
 					num2 = 407;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -3308,7 +3308,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 13;
 					goto IL_25C5;
 				case 205:
-					i4iw8SpaFI6rqcQywY.lE1FywSjuNPSTaPwni(memoryStream);
+					JuneClass02.lE1FywSjuNPSTaPwni(memoryStream);
 					num2 = 255;
 					if (!true)
 					{
@@ -3320,7 +3320,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 291;
 					goto IL_25C1;
 				case 207:
-					i4iw8SpaFI6rqcQywY.FG0xWVXJskBCSn2mLj(intPtr3, num5 + 1879048192);
+					JuneClass02.FG0xWVXJskBCSn2mLj(intPtr3, num5 + 1879048192);
 					arg_25C1_0 = 223;
 					goto IL_25C1;
 				case 208:
@@ -3334,7 +3334,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 209:
 					num = 155 + 26;
 					num2 = 333;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -3362,7 +3362,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 61;
 					goto IL_25C1;
 				case 218:
-					if (i4iw8SpaFI6rqcQywY.ga4IBuaibTVdgveag8(i4iw8SpaFI6rqcQywY.0V0mZO3XQeKKWWM0nC(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly)) > 0)
+					if (JuneClass02.ga4IBuaibTVdgveag8(JuneClass02.JuneMethod23(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly)) > 0)
 					{
 						arg_25C9_0 = 56;
 						continue;
@@ -3395,9 +3395,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				}
 				case 226:
 				{
-					string text = i4iw8SpaFI6rqcQywY.W0PAOeus1xk90CI41s(i4iw8SpaFI6rqcQywY.cAihHWIWrZgH5CyWi0(), array);
+					string text = JuneClass02.W0PAOeus1xk90CI41s(JuneClass02.cAihHWIWrZgH5CyWi0(), array);
 					num2 = 329;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -3406,7 +3406,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 227:
 					num3 = 96 + 50;
 					num2 = 248;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -3436,7 +3436,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 235:
 					num = 45 + 59;
 					num2 = 115;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_3007;
 					}
@@ -3466,7 +3466,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 241:
 					array2[19] = 86 + 118;
 					num2 = 26;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_12D7;
 					}
@@ -3494,7 +3494,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 249:
 					num3 = 161 - 106;
 					num2 = 451;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_120F;
 					}
@@ -3536,7 +3536,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C9_0 = 5;
 					continue;
 				case 261:
-					i4iw8SpaFI6rqcQywY.PltXnXnAg = new byte[i4iw8SpaFI6rqcQywY.Q71kSSoJq.Length][];
+					JuneClass02.PltXnXnAg = new byte[JuneClass02.Q71kSSoJq.Length][];
 					arg_25C1_0 = 106;
 					goto IL_25C1;
 				case 262:
@@ -3580,7 +3580,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 273:
 					num = 129 + 124;
 					num2 = 265;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_1742;
 					}
@@ -3616,7 +3616,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C9_0 = 160;
 					continue;
 				case 281:
-					i4iw8SpaFI6rqcQywY.Q71kSSoJq = new long[i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader)];
+					JuneClass02.Q71kSSoJq = new long[JuneClass02.JuneMethod24(binaryReader)];
 					arg_25C1_0 = 261;
 					goto IL_25C1;
 				case 282:
@@ -3646,19 +3646,19 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 288:
 				{
 					IntPtr intPtr4;
-					if (!i4iw8SpaFI6rqcQywY.wvnuq5t9SA3I2d6VcJ(intPtr4, IntPtr.Zero))
+					if (!JuneClass02.wvnuq5t9SA3I2d6VcJ(intPtr4, IntPtr.Zero))
 					{
 						goto IL_1840;
 					}
 					num2 = 201;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_3850;
 					}
 					goto IL_25C5;
 				}
 				case 289:
-					i4iw8SpaFI6rqcQywY.A87FMUFNt = true;
+					JuneClass02.A87FMUFNt = true;
 					arg_25C1_0 = 153;
 					goto IL_25C1;
 				case 290:
@@ -3696,7 +3696,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 299:
 					array2[18] = 107 + 70;
 					num2 = 242;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
@@ -3728,7 +3728,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 305:
 					goto IL_3B2D;
 				case 306:
-					i4iw8SpaFI6rqcQywY.NM2alYMwPg4WDrhY8k(i4iw8SpaFI6rqcQywY.47e7lMQu4cX6qKfac8(binaryReader), 0L);
+					JuneClass02.NM2alYMwPg4WDrhY8k(JuneClass02.JuneMethod20(binaryReader), 0L);
 					num2 = 144;
 					goto IL_25C5;
 				case 307:
@@ -3738,7 +3738,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 308:
 				{
 					byte[] array7;
-					ICryptoTransform transform = i4iw8SpaFI6rqcQywY.UnVxCWNmOc3kZ2t0hj(rijndaelManaged, array7, array5);
+					ICryptoTransform transform = JuneClass02.UnVxCWNmOc3kZ2t0hj(rijndaelManaged, array7, array5);
 					num2 = 128;
 					if (false)
 					{
@@ -3781,7 +3781,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 184;
 					goto IL_25C1;
 				case 318:
-					i4iw8SpaFI6rqcQywY.94LKHA4snPSwE3eUNv(cryptoStream, array8, 0, array8.Length);
+					JuneClass02.JuneMethod22(cryptoStream, array8, 0, array8.Length);
 					arg_25C1_0 = 75;
 					goto IL_25C1;
 				case 319:
@@ -3796,7 +3796,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					continue;
 				case 322:
 					array2[11] = 91 + 32;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						num2 = 79;
 						goto IL_25C5;
@@ -3812,19 +3812,19 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 325:
 					goto IL_68D;
 				case 326:
-					num5 = i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader);
+					num5 = JuneClass02.JuneMethod24(binaryReader);
 					arg_25C1_0 = 133;
 					goto IL_25C1;
 				case 327:
 					num = 223 - 74;
 					num2 = 183;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_22D2;
 					}
 					goto IL_25C5;
 				case 328:
-					if (i4iw8SpaFI6rqcQywY.cgUlWcZIS1BMQM9tuC() == 4)
+					if (JuneClass02.cgUlWcZIS1BMQM9tuC() == 4)
 					{
 						num2 = 10;
 						if (!true)
@@ -3835,9 +3835,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					}
 					else
 					{
-						num10 = i4iw8SpaFI6rqcQywY.i994pF7IEXDbT3f9qX(new IntPtr(value));
+						num10 = JuneClass02.i994pF7IEXDbT3f9qX(new IntPtr(value));
 						num2 = 80;
-						if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+						if (!JuneClass02.XWcR8KHk14riyvf2U8())
 						{
 							goto Block_42;
 						}
@@ -3847,12 +3847,12 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 329:
 				{
 					string text;
-					IntPtr intPtr4 = i4iw8SpaFI6rqcQywY.G5vP1sU07(text);
+					IntPtr intPtr4 = JuneClass02.G5vP1sU07(text);
 					arg_25C1_0 = 288;
 					goto IL_25C1;
 				}
 				case 330:
-					i4iw8SpaFI6rqcQywY.NM2alYMwPg4WDrhY8k(i4iw8SpaFI6rqcQywY.47e7lMQu4cX6qKfac8(binaryReader), 0L);
+					JuneClass02.NM2alYMwPg4WDrhY8k(JuneClass02.JuneMethod20(binaryReader), 0L);
 					arg_25C1_0 = 348;
 					goto IL_25C1;
 				case 331:
@@ -3937,7 +3937,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						array2[17] = 6 + 11;
 						num2 = 304;
 					}
-					while (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8());
+					while (!JuneClass02.XWcR8KHk14riyvf2U8());
 					goto IL_25C5;
 				case 352:
 					num3 = 92 + 36;
@@ -3996,13 +3996,13 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 367:
 					array[0] = 109;
 					num2 = 434;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
 					goto IL_1073;
 				case 368:
-					if (i4iw8SpaFI6rqcQywY.0V0mZO3XQeKKWWM0nC(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly) == null)
+					if (JuneClass02.JuneMethod23(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly) == null)
 					{
 						goto IL_AAA;
 					}
@@ -4015,9 +4015,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 369:
 					goto IL_24D9;
 				case 370:
-					i4iw8SpaFI6rqcQywY.jIlmc3NqI(intPtr3, 4, 4, ref num8);
+					JuneClass02.jIlmc3NqI(intPtr3, 4, 4, ref num8);
 					num2 = 109;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -4029,7 +4029,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 372:
 					array5[15] = array4[7];
 					num2 = 247;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_10C5;
 					}
@@ -4114,7 +4114,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					arg_25C1_0 = 245;
 					goto IL_25C1;
 				case 393:
-					array4 = i4iw8SpaFI6rqcQywY.vBXhR1lDPvvpHJFHlr(i4iw8SpaFI6rqcQywY.TYjiqqWcVoH0QNSIR0(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly));
+					array4 = JuneClass02.vBXhR1lDPvvpHJFHlr(JuneClass02.TYjiqqWcVoH0QNSIR0(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly));
 					num2 = 57;
 					if (false)
 					{
@@ -4166,7 +4166,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 408:
 					goto IL_1F21;
 				case 409:
-					i4iw8SpaFI6rqcQywY.jIlmc3NqI(intPtr6, 4, num8, ref num8);
+					JuneClass02.jIlmc3NqI(intPtr6, 4, num8, ref num8);
 					num2 = 388;
 					goto IL_25C5;
 				case 410:
@@ -4190,7 +4190,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 415:
 					array2[4] = 73 - 48;
 					num2 = 232;
-					if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_19E5;
 					}
@@ -4245,7 +4245,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					continue;
 				case 425:
 				{
-					byte[] buffer = i4iw8SpaFI6rqcQywY.T8NCrg1TD1PRQeJjuG(memoryStream);
+					byte[] buffer = JuneClass02.T8NCrg1TD1PRQeJjuG(memoryStream);
 					arg_25C1_0 = 205;
 					goto IL_25C1;
 				}
@@ -4307,7 +4307,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					num2 = 359;
 					goto IL_25C5;
 				case 440:
-					if (i4iw8SpaFI6rqcQywY.cgUlWcZIS1BMQM9tuC() == 4)
+					if (JuneClass02.cgUlWcZIS1BMQM9tuC() == 4)
 					{
 						num2 = 315;
 						if (false)
@@ -4318,9 +4318,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 					}
 					else
 					{
-						value = i4iw8SpaFI6rqcQywY.i994pF7IEXDbT3f9qX(intPtr5);
+						value = JuneClass02.i994pF7IEXDbT3f9qX(intPtr5);
 						num2 = 412;
-						if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+						if (!JuneClass02.FQGif42PmSRMBuAdYq())
 						{
 							goto IL_25C5;
 						}
@@ -4337,7 +4337,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 442:
 					array3[9] = (byte)num3;
 					num2 = 103;
-					if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (!JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_310E;
 					}
@@ -4345,7 +4345,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 443:
 				{
 					IntPtr intPtr4;
-					intPtr7 = i4iw8SpaFI6rqcQywY.1tX0sqCpd(intPtr4, text2);
+					intPtr7 = JuneClass02.JuneMethod12(intPtr4, text2);
 					num2 = 142;
 					goto IL_25C5;
 				}
@@ -4372,7 +4372,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 451:
 					array3[2] = (byte)num3;
 					num2 = 97;
-					if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+					if (!JuneClass02.FQGif42PmSRMBuAdYq())
 					{
 						goto IL_25C5;
 					}
@@ -4380,17 +4380,17 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 452:
 					num = 190 - 63;
 					num2 = 199;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
 					goto IL_38A7;
 				case 453:
-					i4iw8SpaFI6rqcQywY.blZLB0nwo = intPtr8.ToInt64();
+					JuneClass02.blZLB0nwo = intPtr8.ToInt64();
 					num2 = 21;
 					goto IL_25C5;
 				case 454:
-					i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader);
+					JuneClass02.JuneMethod24(binaryReader);
 					arg_25C1_0 = 336;
 					goto IL_25C1;
 				case 455:
@@ -4421,21 +4421,21 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				case 462:
 					array2[14] = (byte)num;
 					num2 = 282;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
 					goto IL_2466;
 				case 463:
-					i4iw8SpaFI6rqcQywY.jIlmc3NqI(new IntPtr(value), i4iw8SpaFI6rqcQywY.cgUlWcZIS1BMQM9tuC(), num9, ref num9);
+					JuneClass02.jIlmc3NqI(new IntPtr(value), JuneClass02.cgUlWcZIS1BMQM9tuC(), num9, ref num9);
 					num2 = 178;
-					if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+					if (JuneClass02.XWcR8KHk14riyvf2U8())
 					{
 						goto IL_25C5;
 					}
 					goto IL_9A8;
 				case 464:
-					i4iw8SpaFI6rqcQywY.jIlmc3NqI(intPtr6, 4, 4, ref num8);
+					JuneClass02.jIlmc3NqI(intPtr6, 4, 4, ref num8);
 					arg_25C1_0 = 450;
 					goto IL_25C1;
 				case 465:
@@ -4460,9 +4460,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C9_0 = 386;
 				continue;
 				IL_D19:
-				int num13 = i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader);
+				int num13 = JuneClass02.JuneMethod24(binaryReader);
 				num2 = 30;
-				if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_D34;
 				}
@@ -4488,7 +4488,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C9_0 = 435;
 				continue;
 				IL_140F:
-				if (i4iw8SpaFI6rqcQywY.ga4IBuaibTVdgveag8(i4iw8SpaFI6rqcQywY.0V0mZO3XQeKKWWM0nC(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly)) == 0)
+				if (JuneClass02.ga4IBuaibTVdgveag8(JuneClass02.JuneMethod23(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly)) == 0)
 				{
 					arg_25C9_0 = 157;
 					continue;
@@ -4513,13 +4513,13 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_17FF:
 				num = 105 + 93;
 				num2 = 391;
-				if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_1821;
 				}
 				goto IL_25C5;
 				IL_188E:
-				i4iw8SpaFI6rqcQywY.YoG1i12C3 = i4iw8SpaFI6rqcQywY.aPxaJnRN4kIyDG8Wpp(i4iw8SpaFI6rqcQywY.blZLB0nwo);
+				JuneClass02.YoG1i12C3 = JuneClass02.aPxaJnRN4kIyDG8Wpp(JuneClass02.blZLB0nwo);
 				arg_25C9_0 = 85;
 				continue;
 				IL_18D9:
@@ -4543,11 +4543,11 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C9_0 = 410;
 				continue;
 				IL_1A8C:
-				byte[] array9 = i4iw8SpaFI6rqcQywY.tUq6pAgASGdMws3wNo(binaryReader, num13);
+				byte[] array9 = JuneClass02.tUq6pAgASGdMws3wNo(binaryReader, num13);
 				arg_25C9_0 = 408;
 				continue;
 				IL_1AB9:
-				i4iw8SpaFI6rqcQywY.6sGYIe3ft = new i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN(i4iw8SpaFI6rqcQywY.5Dpx2hsoH);
+				JuneClass02.JuneVariable08 = new JuneClass02.jlJHK7gi8diyf4J5AN(JuneClass02.JuneMethod06);
 				arg_25C9_0 = 124;
 				continue;
 				IL_1B5C:
@@ -4561,13 +4561,13 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_1C5F:
 				array2[22] = 116 + 41;
 				num2 = 382;
-				if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (!JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_1C87;
 				}
 				goto IL_25C5;
 				IL_1F21:
-				i4iw8SpaFI6rqcQywY.PltXnXnAg[num5] = array9;
+				JuneClass02.PltXnXnAg[num5] = array9;
 				arg_25C9_0 = 127;
 				continue;
 				IL_1F5B:
@@ -4577,7 +4577,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_AE4:
 				array2[12] = (byte)num;
 				num2 = 95;
-				if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_25C5;
 				}
@@ -4585,7 +4585,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_3915:
 				IntPtr zero = IntPtr.Zero;
 				num2 = 219;
-				if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_25C5;
 				}
@@ -4605,7 +4605,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_37BD:
 				array3[3] = 101 + 47;
 				num2 = 63;
-				if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (!JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_2500;
 				}
@@ -4621,19 +4621,19 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				}
 				goto IL_25C5;
 				IL_1DBE:
-				i4iw8SpaFI6rqcQywY.lE1FywSjuNPSTaPwni(cryptoStream);
+				JuneClass02.lE1FywSjuNPSTaPwni(cryptoStream);
 				num2 = 361;
-				if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_1DD8;
 				}
 				goto IL_25C5;
 				IL_12D7:
-				i4iw8SpaFI6rqcQywY.5VlTQinWQZia8FAku6(rijndaelManaged, CipherMode.CBC);
+				JuneClass02.JuneMethod21(rijndaelManaged, CipherMode.CBC);
 				num2 = 308;
 				goto IL_25C5;
 				IL_10DE:
-				int num14 = i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader);
+				int num14 = JuneClass02.JuneMethod24(binaryReader);
 				num2 = 454;
 				goto IL_25C5;
 				ulong num15;
@@ -4641,16 +4641,16 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				{
 					IL_FEE:
 					uint num12;
-					i4iw8SpaFI6rqcQywY.6sGYIe3ft(ref num15, IntPtr.Zero, IntPtr.Zero, 216679565u, ref zero, ref num12);
+					JuneClass02.JuneVariable08(ref num15, IntPtr.Zero, IntPtr.Zero, 216679565u, ref zero, ref num12);
 				}
 				catch
 				{
 				}
-				i4iw8SpaFI6rqcQywY.8I7fLPWAg = false;
+				JuneClass02.JuneVariable09 = false;
 				num2 = 156;
 				goto IL_25C5;
 				IL_37EA:
-				if (i4iw8SpaFI6rqcQywY.ot1fbKGIkVL4f5hJ0Q(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly) != null)
+				if (JuneClass02.ot1fbKGIkVL4f5hJ0Q(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly) != null)
 				{
 					arg_25C9_0 = 39;
 					continue;
@@ -4659,7 +4659,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_F4B:
 				num3 = 55 + 37;
 				num2 = 429;
-				if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_25C5;
 				}
@@ -4685,9 +4685,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				num2 = 384;
 				goto IL_25C5;
 				IL_718:
-				num10 = (long)i4iw8SpaFI6rqcQywY.8cD47Mp8FJBW4Rsiqw(new IntPtr(value));
+				num10 = (long)JuneClass02.JuneMethod25(new IntPtr(value));
 				num2 = 129;
-				if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (!JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_25C5;
 				}
@@ -4707,15 +4707,15 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_30C6:
 				num3 = 240 - 80;
 				num2 = 438;
-				if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (!JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_25C5;
 				}
 				goto IL_2CF;
 				IL_22D2:
-				ixwmuCwIGBv73v2GAK = (i4iw8SpaFI6rqcQywY.IxwmuCwIGBv73v2GAK)i4iw8SpaFI6rqcQywY.DfrWBmd5kaE0OSTgAE(intPtr7, i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY.IxwmuCwIGBv73v2GAK).TypeHandle));
+				ixwmuCwIGBv73v2GAK = (JuneClass02.IxwmuCwIGBv73v2GAK)JuneClass02.DfrWBmd5kaE0OSTgAE(intPtr7, JuneClass02.JuneMethod19(typeof(JuneClass02.IxwmuCwIGBv73v2GAK).TypeHandle));
 				num2 = 149;
-				if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (!JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_25C5;
 				}
@@ -4723,7 +4723,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_228:
 				if (num11 < num14)
 				{
-					intPtr6 = new IntPtr(num4 + (long)i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader) - (long)num7);
+					intPtr6 = new IntPtr(num4 + (long)JuneClass02.JuneMethod24(binaryReader) - (long)num7);
 					arg_25C1_0 = 464;
 					goto IL_25C1;
 				}
@@ -4744,7 +4744,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C9_0 = 273;
 				continue;
 				IL_3020:
-				i4iw8SpaFI6rqcQywY.Q71kSSoJq[num5] = num4 + (long)num6;
+				JuneClass02.Q71kSSoJq[num5] = num4 + (long)num6;
 				arg_25C9_0 = 448;
 				continue;
 				IL_312C:
@@ -4772,8 +4772,8 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				try
 				{
 					IL_34FB:
-					ProcessModuleCollection processModuleCollection = i4iw8SpaFI6rqcQywY.PofFPcoARTIUavjfXl(process);
-					IEnumerator enumerator = i4iw8SpaFI6rqcQywY.RuVYfAwLTctL4y7tiq(processModuleCollection);
+					ProcessModuleCollection processModuleCollection = JuneClass02.PofFPcoARTIUavjfXl(process);
+					IEnumerator enumerator = JuneClass02.RuVYfAwLTctL4y7tiq(processModuleCollection);
 					try
 					{
 						while (true)
@@ -4782,10 +4782,10 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							int num16;
 							ProcessModule processModule;
 							int arg_35DF_0;
-							if (!i4iw8SpaFI6rqcQywY.LuTRNf9YbgDvgWfPWi(enumerator))
+							if (!JuneClass02.LuTRNf9YbgDvgWfPWi(enumerator))
 							{
 								num16 = 7;
-								if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+								if (!JuneClass02.FQGif42PmSRMBuAdYq())
 								{
 									goto IL_35DB;
 								}
@@ -4793,7 +4793,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							}
 							else
 							{
-								processModule = (ProcessModule)i4iw8SpaFI6rqcQywY.59FrlIDUtqJJilI9Xs(enumerator);
+								processModule = (ProcessModule)JuneClass02.JuneMethod26(enumerator);
 								arg_35DF_0 = 0;
 							}
 							while (true)
@@ -4804,11 +4804,11 @@ namespace 0S3Qo4yIEbfEJKcxXW
 								case 0:
 								{
 									string text;
-									if (!i4iw8SpaFI6rqcQywY.TLcOeuPPVy6IFPkWYh(i4iw8SpaFI6rqcQywY.luxIy6so0wOhLBwJT8(processModule), text))
+									if (!JuneClass02.TLcOeuPPVy6IFPkWYh(JuneClass02.luxIy6so0wOhLBwJT8(processModule), text))
 									{
 										goto IL_352F;
 									}
-									if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+									if (JuneClass02.XWcR8KHk14riyvf2U8())
 									{
 										goto Block_68;
 									}
@@ -4833,14 +4833,14 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							}
 							IL_3553:
 							int arg_35D7_0;
-							if (i4iw8SpaFI6rqcQywY.ot1fbKGIkVL4f5hJ0Q(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly) != null)
+							if (JuneClass02.ot1fbKGIkVL4f5hJ0Q(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly) != null)
 							{
 								arg_35D7_0 = 5;
 								goto IL_35D7;
 							}
 							continue;
 							IL_35AD:
-							if (num10 > i4iw8SpaFI6rqcQywY.JSWTQt5yqlLSGs6Wu9(processModule).ToInt64() + (long)i4iw8SpaFI6rqcQywY.Z7uPHxBJWShurpYUY7(processModule))
+							if (num10 > JuneClass02.JSWTQt5yqlLSGs6Wu9(processModule).ToInt64() + (long)JuneClass02.Z7uPHxBJWShurpYUY7(processModule))
 							{
 								goto IL_3553;
 							}
@@ -4849,7 +4849,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							goto IL_35AD;
 							Block_68:
 							num16 = 6;
-							if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+							if (JuneClass02.XWcR8KHk14riyvf2U8())
 							{
 								goto IL_35DB;
 							}
@@ -4858,7 +4858,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							num16 = arg_35D7_0;
 							goto IL_35DB;
 							IL_360E:
-							if (num10 >= i4iw8SpaFI6rqcQywY.JSWTQt5yqlLSGs6Wu9(processModule).ToInt64())
+							if (num10 >= JuneClass02.JSWTQt5yqlLSGs6Wu9(processModule).ToInt64())
 							{
 								goto IL_3625;
 							}
@@ -4879,7 +4879,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IDisposable disposable = enumerator as IDisposable;
 						if (disposable != null)
 						{
-							i4iw8SpaFI6rqcQywY.DXw3h6J7sJTXbEPOOi(disposable);
+							JuneClass02.DXw3h6J7sJTXbEPOOi(disposable);
 						}
 					}
 				}
@@ -4888,8 +4888,8 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				}
 				try
 				{
-					ProcessModuleCollection processModuleCollection2 = i4iw8SpaFI6rqcQywY.PofFPcoARTIUavjfXl(process);
-					IEnumerator enumerator2 = i4iw8SpaFI6rqcQywY.RuVYfAwLTctL4y7tiq(processModuleCollection2);
+					ProcessModuleCollection processModuleCollection2 = JuneClass02.PofFPcoARTIUavjfXl(process);
+					IEnumerator enumerator2 = JuneClass02.RuVYfAwLTctL4y7tiq(processModuleCollection2);
 					try
 					{
 						while (true)
@@ -4897,10 +4897,10 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							int num17;
 							ProcessModule processModule2;
 							int arg_36ED_0;
-							if (!i4iw8SpaFI6rqcQywY.LuTRNf9YbgDvgWfPWi(enumerator2))
+							if (!JuneClass02.LuTRNf9YbgDvgWfPWi(enumerator2))
 							{
 								num17 = 6;
-								if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+								if (JuneClass02.XWcR8KHk14riyvf2U8())
 								{
 									goto IL_36E9;
 								}
@@ -4908,9 +4908,9 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							}
 							else
 							{
-								processModule2 = (ProcessModule)i4iw8SpaFI6rqcQywY.59FrlIDUtqJJilI9Xs(enumerator2);
-								i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8();
-								if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+								processModule2 = (ProcessModule)JuneClass02.JuneMethod26(enumerator2);
+								JuneClass02.XWcR8KHk14riyvf2U8();
+								if (JuneClass02.FQGif42PmSRMBuAdYq())
 								{
 									num17 = 4;
 									goto IL_36E9;
@@ -4942,7 +4942,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							}
 							IL_36CA:
 							IntPtr intPtr9;
-							if (intPtr9.ToInt64() == i4iw8SpaFI6rqcQywY.blZLB0nwo)
+							if (intPtr9.ToInt64() == JuneClass02.blZLB0nwo)
 							{
 								goto IL_3718;
 							}
@@ -4953,12 +4953,12 @@ namespace 0S3Qo4yIEbfEJKcxXW
 							IL_3737:
 							goto IL_36CA;
 							IL_372E:
-							intPtr9 = i4iw8SpaFI6rqcQywY.JSWTQt5yqlLSGs6Wu9(processModule2);
+							intPtr9 = JuneClass02.JSWTQt5yqlLSGs6Wu9(processModule2);
 							goto IL_3737;
 							IL_3718:
 							num7 = 0;
 							num17 = 5;
-							if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+							if (JuneClass02.FQGif42PmSRMBuAdYq())
 							{
 								goto IL_372E;
 							}
@@ -4972,14 +4972,14 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						IDisposable disposable2 = enumerator2 as IDisposable;
 						if (disposable2 != null)
 						{
-							i4iw8SpaFI6rqcQywY.DXw3h6J7sJTXbEPOOi(disposable2);
+							JuneClass02.DXw3h6J7sJTXbEPOOi(disposable2);
 						}
 					}
 				}
 				catch
 				{
 				}
-				i4iw8SpaFI6rqcQywY.iTVaN1Ecw = null;
+				JuneClass02.iTVaN1Ecw = null;
 				arg_25C9_0 = 377;
 				continue;
 				IL_38A7:
@@ -5005,7 +5005,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_24D9:
 				num3 = 241 - 80;
 				num2 = 442;
-				if (i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_25C5;
 				}
@@ -5022,11 +5022,11 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C1_0 = 50;
 				goto IL_25C1;
 				IL_3ABA:
-				text2 = i4iw8SpaFI6rqcQywY.W0PAOeus1xk90CI41s(i4iw8SpaFI6rqcQywY.cAihHWIWrZgH5CyWi0(), array6);
+				text2 = JuneClass02.W0PAOeus1xk90CI41s(JuneClass02.cAihHWIWrZgH5CyWi0(), array6);
 				arg_25C1_0 = 443;
 				goto IL_25C1;
 				IL_39D0:
-				i4iw8SpaFI6rqcQywY.dtNBEoFw8hyncLw5UG(binaryReader);
+				JuneClass02.dtNBEoFw8hyncLw5UG(binaryReader);
 				arg_25C1_0 = 225;
 				goto IL_25C1;
 				IL_39A2:
@@ -5066,7 +5066,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C1_0 = 280;
 				goto IL_25C1;
 				IL_1D4D:
-				i4iw8SpaFI6rqcQywY.jIlmc3NqI(new IntPtr(value), i4iw8SpaFI6rqcQywY.cgUlWcZIS1BMQM9tuC(), 4, ref num9);
+				JuneClass02.jIlmc3NqI(new IntPtr(value), JuneClass02.cgUlWcZIS1BMQM9tuC(), 4, ref num9);
 				arg_25C1_0 = 74;
 				goto IL_25C1;
 				IL_1CC3:
@@ -5094,12 +5094,12 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C1_0 = 367;
 				goto IL_25C1;
 				IL_1437:
-				if (i4iw8SpaFI6rqcQywY.leehAxUjmKAdvNwZbj(i4iw8SpaFI6rqcQywY.47e7lMQu4cX6qKfac8(binaryReader)) < i4iw8SpaFI6rqcQywY.c2sL2cCWF8fgS5wMQY(i4iw8SpaFI6rqcQywY.47e7lMQu4cX6qKfac8(binaryReader)) - 1L)
+				if (JuneClass02.leehAxUjmKAdvNwZbj(JuneClass02.JuneMethod20(binaryReader)) < JuneClass02.c2sL2cCWF8fgS5wMQY(JuneClass02.JuneMethod20(binaryReader)) - 1L)
 				{
 					arg_25C1_0 = 83;
 					goto IL_25C1;
 				}
-				intPtr8 = i4iw8SpaFI6rqcQywY.IYyCVurlZmcGVWqg2b(i4iw8SpaFI6rqcQywY.Dn81cHh6sdV6rtL9ED(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly)[0]);
+				intPtr8 = JuneClass02.IYyCVurlZmcGVWqg2b(JuneClass02.Dn81cHh6sdV6rtL9ED(JuneClass02.JuneMethod19(typeof(JuneClass02).TypeHandle).Assembly)[0]);
 				arg_25C1_0 = 453;
 				goto IL_25C1;
 				IL_13E1:
@@ -5115,13 +5115,13 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				arg_25C1_0 = 159;
 				goto IL_25C1;
 				IL_BEA:
-				i4iw8SpaFI6rqcQywY.jIlmc3NqI(intPtr3, 4, num8, ref num8);
+				JuneClass02.jIlmc3NqI(intPtr3, 4, num8, ref num8);
 				arg_25C1_0 = 233;
 				goto IL_25C1;
 				IL_1DD8:
 				goto IL_BEA;
 				IL_9FE:
-				i4iw8SpaFI6rqcQywY.FG0xWVXJskBCSn2mLj(intPtr6, i4iw8SpaFI6rqcQywY.6UZ34TcHCafSZRnbHH(binaryReader));
+				JuneClass02.FG0xWVXJskBCSn2mLj(intPtr6, JuneClass02.JuneMethod24(binaryReader));
 				arg_25C1_0 = 409;
 				goto IL_25C1;
 				IL_9A8:
@@ -5157,22 +5157,22 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				try
 				{
 					IL_2DE2:
-					i4iw8SpaFI6rqcQywY.iTVaN1Ecw = (i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN)i4iw8SpaFI6rqcQywY.DfrWBmd5kaE0OSTgAE(new IntPtr(num10), i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN).TypeHandle));
+					JuneClass02.iTVaN1Ecw = (JuneClass02.jlJHK7gi8diyf4J5AN)JuneClass02.DfrWBmd5kaE0OSTgAE(new IntPtr(num10), JuneClass02.JuneMethod19(typeof(JuneClass02.jlJHK7gi8diyf4J5AN).TypeHandle));
 				}
 				catch
 				{
 					try
 					{
-						Delegate @delegate = i4iw8SpaFI6rqcQywY.DfrWBmd5kaE0OSTgAE(new IntPtr(num10), i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN).TypeHandle));
+						Delegate @delegate = JuneClass02.DfrWBmd5kaE0OSTgAE(new IntPtr(num10), JuneClass02.JuneMethod19(typeof(JuneClass02.jlJHK7gi8diyf4J5AN).TypeHandle));
 						int arg_2E95_0;
-						if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+						if (!JuneClass02.FQGif42PmSRMBuAdYq())
 						{
 							arg_2E95_0 = 2;
 						}
 						else
 						{
 							int num18 = 3;
-							if (i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+							if (JuneClass02.FQGif42PmSRMBuAdYq())
 							{
 								goto IL_2EC8;
 							}
@@ -5182,7 +5182,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 						{
 						case 0:
 						case 2:
-							i4iw8SpaFI6rqcQywY.iTVaN1Ecw = (i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN)i4iw8SpaFI6rqcQywY.fCKsi2K7Q8Mw2FxoF4(i4iw8SpaFI6rqcQywY.8hmkclmbsfNITU97ti(typeof(i4iw8SpaFI6rqcQywY.jlJHK7gi8diyf4J5AN).TypeHandle), i4iw8SpaFI6rqcQywY.eEjosdqXIet6wr29hQ(@delegate));
+							JuneClass02.iTVaN1Ecw = (JuneClass02.jlJHK7gi8diyf4J5AN)JuneClass02.fCKsi2K7Q8Mw2FxoF4(JuneClass02.JuneMethod19(typeof(JuneClass02.jlJHK7gi8diyf4J5AN).TypeHandle), JuneClass02.eEjosdqXIet6wr29hQ(@delegate));
 							break;
 						}
 						IL_2EC8:;
@@ -5195,7 +5195,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				num2 = 350;
 				goto IL_25C5;
 				IL_3007:
-				value = (long)i4iw8SpaFI6rqcQywY.8cD47Mp8FJBW4Rsiqw(intPtr5);
+				value = (long)JuneClass02.JuneMethod25(intPtr5);
 				num2 = 182;
 				if (false)
 				{
@@ -5222,15 +5222,15 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				}
 				goto IL_25C5;
 				IL_32A5:
-				array8 = i4iw8SpaFI6rqcQywY.tUq6pAgASGdMws3wNo(binaryReader, (int)i4iw8SpaFI6rqcQywY.c2sL2cCWF8fgS5wMQY(i4iw8SpaFI6rqcQywY.47e7lMQu4cX6qKfac8(binaryReader)));
+				array8 = JuneClass02.tUq6pAgASGdMws3wNo(binaryReader, (int)JuneClass02.c2sL2cCWF8fgS5wMQY(JuneClass02.JuneMethod20(binaryReader)));
 				num2 = 272;
-				if (!i4iw8SpaFI6rqcQywY.XWcR8KHk14riyvf2U8())
+				if (!JuneClass02.XWcR8KHk14riyvf2U8())
 				{
 					goto IL_32CB;
 				}
 				goto IL_25C5;
 				IL_32EA:
-				process = i4iw8SpaFI6rqcQywY.dHvxyqTrr6E2MXiFCx();
+				process = JuneClass02.dHvxyqTrr6E2MXiFCx();
 				num2 = 335;
 				goto IL_25C5;
 				IL_34DE:
@@ -5248,7 +5248,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 				IL_3850:
 				array2[28] = (byte)num;
 				num2 = 432;
-				if (!i4iw8SpaFI6rqcQywY.FQGif42PmSRMBuAdYq())
+				if (!JuneClass02.FQGif42PmSRMBuAdYq())
 				{
 					goto IL_25C5;
 				}
@@ -5281,20 +5281,20 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return result;
 		}
 		[DllImport("kernel32", EntryPoint = "LoadLibrary")]
-		public static extern IntPtr G5vP1sU07(string);
+		public static extern IntPtr G5vP1sU07(string JuneVariable21);
 		[DllImport("kernel32", CharSet = CharSet.Ansi, EntryPoint = "GetProcAddress")]
-		public static extern IntPtr 1tX0sqCpd(IntPtr, string);
+		public static extern IntPtr JuneMethod12(IntPtr JuneVariable22, string JuneVariable23);
 		[DllImport("kernel32.dll", EntryPoint = "WriteProcessMemory")]
-		static extern int qvBKgBCCB(IntPtr, IntPtr, [In] [Out] byte[], uint, out IntPtr);
+		static extern int qvBKgBCCB(IntPtr JuneVariable24, IntPtr JuneVariable25, [In] [Out] byte[] JuneVariable26, uint JuneVariable27, out IntPtr JuneVariable28);
 		[DllImport("kernel32.dll", EntryPoint = "ReadProcessMemory")]
-		static extern int r41jvIG72(IntPtr, IntPtr, [In] [Out] byte[], uint, out IntPtr);
+        static extern int r41jvIG72(IntPtr JuneVariable29, IntPtr JuneVariable30, [In] [Out] byte[] JuneVariable31, uint JuneVariable67, out IntPtr JuneVariable32);
 		[DllImport("kernel32.dll", EntryPoint = "VirtualProtect")]
-		static extern int jIlmc3NqI(IntPtr, int, int, ref int);
+		static extern int jIlmc3NqI(IntPtr JuneVariable33, int JuneVariable34, int JuneVariable35, ref int JuneVariable36);
 		[DllImport("kernel32.dll", EntryPoint = "OpenProcess")]
-		static extern IntPtr 9fHVIPjsd(uint, int, uint);
+		static extern IntPtr JuneMethod10(uint JuneVariable37, int JuneVariable38, uint JuneVariable39);
 		[DllImport("kernel32.dll", EntryPoint = "CloseHandle")]
-		static extern int AwbleK0MF(IntPtr);
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		static extern int AwbleK0MF(IntPtr JuneVariable40);
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static byte[] jNluvE3F5(string path)
 		{
@@ -5314,7 +5314,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			}
 			return array;
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static byte[] lHl7kmdSk(byte[] array)
 		{
@@ -5436,7 +5436,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return null;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal byte[] 37rChVqkQ()
+		internal byte[] JuneMethod14()
 		{
 			string text = "{11111-22222-40001-00001}";
 			if (text.Length > 0)
@@ -5481,7 +5481,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 		{
 			return null;
 		}
-		[i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i(typeof(i4iw8SpaFI6rqcQywY.84D4SUUv8aCxwwEk9i.rvhS2dtl7YDTvEwe6r<object>[]))]
+		[JuneClass02.JuneClass01(typeof(JuneClass02.JuneClass01.JuneClass03<object>[]))]
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		internal static string ijQWdog6S(string s, string s2)
 		{
@@ -5534,7 +5534,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return Convert.ToBase64String(memoryStream.ToArray());
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		public i4iw8SpaFI6rqcQywY()
+		public JuneClass02()
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -5558,7 +5558,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			obj.Position = position;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static void 6qo3R5Moc2aFafSYOE(bool useMachineKeyStore)
+		internal static void JuneMethod16(bool useMachineKeyStore)
 		{
 			RSACryptoServiceProvider.UseMachineKeyStore = useMachineKeyStore;
 		}
@@ -5583,7 +5583,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.GetPublicKeyToken();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static void 7xiO2OLBeuRePZrsCT(object obj, CipherMode mode)
+		internal static void JuneMethod17(object obj, CipherMode mode)
 		{
 			obj.Mode = mode;
 		}
@@ -5603,7 +5603,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			obj.FlushFinalBlock();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 1YvaQSmm9EIa0ThnyO(object obj)
+		internal static object JuneMethod18(object obj)
 		{
 			return obj.ToArray();
 		}
@@ -5648,7 +5648,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			RSACryptoServiceProvider.UseMachineKeyStore = useMachineKeyStore;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static Type 8hmkclmbsfNITU97ti(RuntimeTypeHandle handle)
+		internal static Type JuneMethod19(RuntimeTypeHandle handle)
 		{
 			return Type.GetTypeFromHandle(handle);
 		}
@@ -5658,7 +5658,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.GetManifestResourceStream(name);
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 47e7lMQu4cX6qKfac8(object obj)
+		internal static object JuneMethod20(object obj)
 		{
 			return obj.BaseStream;
 		}
@@ -5688,7 +5688,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.GetPublicKeyToken();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static void 5VlTQinWQZia8FAku6(object obj, CipherMode mode)
+		internal static void JuneMethod21(object obj, CipherMode mode)
 		{
 			obj.Mode = mode;
 		}
@@ -5698,7 +5698,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.CreateDecryptor(rgbKey, rgbIV);
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static void 94LKHA4snPSwE3eUNv(object obj, object buffer, int offset, int count)
+		internal static void JuneMethod22(object obj, object buffer, int offset, int count)
 		{
 			obj.Write(buffer, offset, count);
 		}
@@ -5733,7 +5733,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return Marshal.GetHINSTANCE(m);
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 0V0mZO3XQeKKWWM0nC(object obj)
+		internal static object JuneMethod23(object obj)
 		{
 			return obj.Location;
 		}
@@ -5743,7 +5743,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.Length;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static int 6UZ34TcHCafSZRnbHH(object obj)
+		internal static int JuneMethod24(object obj)
 		{
 			return obj.ReadInt32();
 		}
@@ -5793,7 +5793,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static int 8cD47Mp8FJBW4Rsiqw(IntPtr ptr)
+		internal static int JuneMethod25(IntPtr ptr)
 		{
 			return Marshal.ReadInt32(ptr);
 		}
@@ -5823,7 +5823,7 @@ namespace 0S3Qo4yIEbfEJKcxXW
 			return obj.GetEnumerator();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 59FrlIDUtqJJilI9Xs(object obj)
+		internal static object JuneMethod26(object obj)
 		{
 			return ((IEnumerator)obj).Current;
 		}

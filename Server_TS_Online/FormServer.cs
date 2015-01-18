@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using Microsoft.VisualBasic.CompilerServices;
 using System;
 using System.ComponentModel;
@@ -12,7 +12,7 @@ namespace Server_TS_Online
 	public class FormServer : Form
 	{
 		public delegate void _AddClient(Socket client);
-		private delegate void T4NHcL5FM2XNBp5YKn(ListView);
+		private delegate void T4NHcL5FM2XNBp5YKn(ListView JuneVariable21);
 		private IContainer GX7Wl0GLH;
 		[AccessedThroughProperty("Panel1")]
 		private Panel ud8D5MeEF;
@@ -59,9 +59,9 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("MapYDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn eQeyF4vW4;
 		[AccessedThroughProperty("RebornDataGridViewTextBoxColumn")]
-		private DataGridViewTextBoxColumn 77ElD37QI;
+		private DataGridViewTextBoxColumn JuneFormItem01;
 		[AccessedThroughProperty("TExpDataGridViewTextBoxColumn")]
-		private DataGridViewTextBoxColumn 3v7s3djIR;
+		private DataGridViewTextBoxColumn JuneFormItem02;
 		[AccessedThroughProperty("SexDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn hBMg2096r;
 		[AccessedThroughProperty("HairDataGridViewTextBoxColumn")]
@@ -75,7 +75,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("ColorDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn nhk362FXD;
 		[AccessedThroughProperty("GoldDataGridViewTextBoxColumn")]
-		private DataGridViewTextBoxColumn 8raFXQh5n;
+		private DataGridViewTextBoxColumn JuneFormItem03;
 		[AccessedThroughProperty("PointDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn yqICT3dfO;
 		[AccessedThroughProperty("TiengtamDataGridViewTextBoxColumn")]
@@ -107,9 +107,9 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("WarpIdDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn YQcHxarhZ8;
 		[AccessedThroughProperty("MapId2DataGridViewTextBoxColumn")]
-		private DataGridViewTextBoxColumn 33tHPfX3cg;
+		private DataGridViewTextBoxColumn JuneFormItem04;
 		[AccessedThroughProperty("XDataGridViewTextBoxColumn")]
-		private DataGridViewTextBoxColumn 9MyHbJvGr0;
+		private DataGridViewTextBoxColumn JuneFormItem05;
 		[AccessedThroughProperty("YDataGridViewTextBoxColumn")]
 		private DataGridViewTextBoxColumn AHCHickJJk;
 		[AccessedThroughProperty("TabControl1")]
@@ -117,7 +117,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("TabPage_Main")]
 		private TabPage wocH0YvOnd;
 		[AccessedThroughProperty("TabPage_Data")]
-		private TabPage 5aMHKUMf0f;
+		private TabPage JuneFormItem06;
 		[AccessedThroughProperty("TabControl_Data")]
 		private TabControl WPcHeXqnfO;
 		[AccessedThroughProperty("TabPage_Npc")]
@@ -125,7 +125,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("TabPage_Item")]
 		private TabPage eggHXSSYH6;
 		[AccessedThroughProperty("TabPage_Skill")]
-		private TabPage 5kNHEZoo62;
+		private TabPage JuneFormItem07;
 		[AccessedThroughProperty("TabPage_Warp")]
 		private TabPage h5dHMQPXJv;
 		[AccessedThroughProperty("DataGridViewTextBoxColumn1")]
@@ -133,7 +133,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("DataGridViewTextBoxColumn2")]
 		private DataGridViewTextBoxColumn VyGHtYjFQs;
 		[AccessedThroughProperty("DataGridViewTextBoxColumn3")]
-		private DataGridViewTextBoxColumn 7SMHS95df4;
+		private DataGridViewTextBoxColumn JuneFormItem08;
 		[AccessedThroughProperty("DataGridViewTextBoxColumn4")]
 		private DataGridViewTextBoxColumn NHJHQ5WEWO;
 		[AccessedThroughProperty("DataGridViewTextBoxColumn5")]
@@ -169,7 +169,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("RichTextBox1")]
 		private RichTextBox DyhHTHBTvQ;
 		[AccessedThroughProperty("TabControl2")]
-		private TabControl 3wGHw94Xed;
+		private TabControl JuneFormItem09;
 		[AccessedThroughProperty("TabPage_Account")]
 		private TabPage CuKHq5kijb;
 		[AccessedThroughProperty("TabPage_Online")]
@@ -179,7 +179,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("GroupBox_SettingServer")]
 		private GroupBox v3rHkUAcyO;
 		[AccessedThroughProperty("Button_PerExp")]
-		private Button 4BZHpXNmR5;
+		private Button JuneFormItem10;
 		[AccessedThroughProperty("NumericUpDown_PerExp")]
 		private NumericUpDown W4pHyU13Nf;
 		[AccessedThroughProperty("Label5")]
@@ -225,7 +225,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("ColumnHeader5")]
 		private ColumnHeader CJ92OUSSaf;
 		[AccessedThroughProperty("ColumnHeader6")]
-		private ColumnHeader 3gW2H1kxMR;
+		private ColumnHeader JuneFormItem11;
 		[AccessedThroughProperty("ColumnHeader7")]
 		private ColumnHeader H9c22SlgmO;
 		[AccessedThroughProperty("ColumnHeader8")]
@@ -239,7 +239,7 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("ColumnHeader12")]
 		private ColumnHeader hYc2NE3pp0;
 		[AccessedThroughProperty("ColumnHeader13")]
-		private ColumnHeader 4fu208Cd9i;
+		private ColumnHeader JuneFormItem12;
 		[AccessedThroughProperty("ColumnHeader14")]
 		private ColumnHeader bgo2KjQkHk;
 		[AccessedThroughProperty("ColumnHeader15")]
@@ -285,17 +285,17 @@ namespace Server_TS_Online
 		[AccessedThroughProperty("ColumnHeader32")]
 		private ColumnHeader MnK2udnCgJ;
 		[AccessedThroughProperty("ColumnHeader33")]
-		private ColumnHeader 6Ns2BAJv3g;
+		private ColumnHeader JuneFormItem13;
 		[AccessedThroughProperty("ColumnHeader34")]
 		private ColumnHeader xiT2Lk1qSr;
 		[AccessedThroughProperty("ColumnHeader35")]
 		private ColumnHeader YgW2G2akjr;
 		[AccessedThroughProperty("Button__LoadItem")]
-		private Button 9Ze2TDknAr;
+		private Button JuneFormItem14;
 		[AccessedThroughProperty("ColumnHeader37")]
 		private ColumnHeader M4x2wESOAl;
 		[AccessedThroughProperty("ColumnHeader36")]
-		private ColumnHeader 3YI2qSIDH8;
+		private ColumnHeader JuneFormItem15;
 		[AccessedThroughProperty("ColumnHeader38")]
 		private ColumnHeader aPh2YPVQWb;
 		[AccessedThroughProperty("ColumnHeader39")]
@@ -2071,7 +2071,7 @@ namespace Server_TS_Online
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void 9VZPBJlL0(IAsyncResult asyncResult)
+		private void JuneMethod05(IAsyncResult asyncResult)
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -2087,7 +2087,7 @@ namespace Server_TS_Online
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void 3vL0cyhog(object obj, EventArgs eventArgs)
+		private void JuneMethod08(object obj, EventArgs eventArgs)
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -2099,7 +2099,7 @@ namespace Server_TS_Online
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void 0EpmnTocm(object obj, EventArgs eventArgs)
+		private void JuneMethod09(object obj, EventArgs eventArgs)
 		{
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -2142,7 +2142,7 @@ namespace Server_TS_Online
 		}
 		static FormServer()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

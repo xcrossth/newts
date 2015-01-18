@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using KCrYf5FMCjhgoqphm4;
 using mI8ftgPHdarBr2Ldoi;
 using Microsoft.VisualBasic.ApplicationServices;
@@ -40,7 +40,7 @@ namespace LHgl4yxBZtFUmrale9
 		static nkOHS02WeUR2u5xkyN()
 		{
 			Mulkts7rbVeJtTF0Ma.Bv5dgtD26BXOx();
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

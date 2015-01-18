@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using Microsoft.VisualBasic.Devices;
 using System;
 using System.CodeDom.Compiler;
@@ -17,7 +17,7 @@ namespace DI8TY5bwqpaaMjTOyG
 		}
 		static JpQ8gEATWAHIpg0b0B()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

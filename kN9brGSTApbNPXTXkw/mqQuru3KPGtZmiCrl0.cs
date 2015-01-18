@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using Server_TS_Online.My;
@@ -12,7 +12,7 @@ namespace kN9brGSTApbNPXTXkw
 	internal sealed class mqQuru3KPGtZmiCrl0
 	{
 		[HelpKeyword("My.Settings")]
-		internal static MySettings 87T2NGQfS
+		internal static MySettings JuneVariable04
 		{
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			get
@@ -22,7 +22,7 @@ namespace kN9brGSTApbNPXTXkw
 		}
 		static mqQuru3KPGtZmiCrl0()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

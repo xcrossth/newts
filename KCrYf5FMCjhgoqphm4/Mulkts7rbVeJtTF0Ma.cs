@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.IO;
 using System.Reflection;
@@ -20,11 +20,11 @@ namespace KCrYf5FMCjhgoqphm4
 				return 0u;
 			}
 			[MethodImpl(MethodImplOptions.NoInlining)]
-			static unsafe void 87T2NGQfS(uint num, void* ptr, uint num2)
+			static unsafe void JuneVariable04(uint num, void* ptr, uint num2)
 			{
 			}
 			[MethodImpl(MethodImplOptions.NoInlining)]
-			static unsafe bool 5Dpx2hsoH(void* ptr, void* ptr2, uint num)
+			static unsafe bool JuneMethod06(void* ptr, void* ptr2, uint num)
 			{
 				return true;
 			}
@@ -46,7 +46,7 @@ namespace KCrYf5FMCjhgoqphm4
 			{
 			}
 			[MethodImpl(MethodImplOptions.NoInlining)]
-			static unsafe void 1tX0sqCpd(byte* ptr, byte* ptr2, uint num)
+			static unsafe void JuneMethod12(byte* ptr, byte* ptr2, uint num)
 			{
 			}
 			[MethodImpl(MethodImplOptions.NoInlining)]
@@ -65,7 +65,7 @@ namespace KCrYf5FMCjhgoqphm4
 				return 0u;
 			}
 			[MethodImpl(MethodImplOptions.NoInlining)]
-			static uint 9fHVIPjsd(byte[] array, uint num, byte[] array2, uint num2)
+			static uint JuneMethod10(byte[] array, uint num, byte[] array2, uint num2)
 			{
 				return 0u;
 			}
@@ -115,17 +115,17 @@ namespace KCrYf5FMCjhgoqphm4
 			}
 			static gZ5KOvTWlUcAexhp8h()
 			{
-				i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+				JuneClass02.UUCbAVAAM();
 			}
 		}
-		private static string[] 87T2NGQfS;
-		private static Assembly 5Dpx2hsoH;
+		private static string[] JuneVariable04;
+		private static Assembly JuneMethod06;
 		private static bool v7TIv74O9;
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static Assembly lxGHuH450(object obj, ResolveEventArgs resolveEventArgs)
 		{
 			int arg_230F_0;
-			if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+			if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 			{
 				arg_230F_0 = 15;
 				goto IL_230F;
@@ -154,7 +154,7 @@ namespace KCrYf5FMCjhgoqphm4
 					{
 					case 0:
 					case 311:
-						if (Mulkts7rbVeJtTF0Ma.5Dpx2hsoH == null)
+						if (Mulkts7rbVeJtTF0Ma.JuneMethod06 == null)
 						{
 							arg_2317_0 = 224;
 							continue;
@@ -167,7 +167,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 3:
 						array[0] = 183 - 61;
 						num = 185;
-						if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 						{
 							goto IL_D75;
 						}
@@ -195,7 +195,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 11:
 						array[8] = (byte)num3;
 						num = 180;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_8;
 						}
@@ -294,7 +294,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 44:
 						goto IL_1C87;
 					case 45:
-						Mulkts7rbVeJtTF0Ma.75j3exysGeHBqb4ksp(rijndaelManaged, CipherMode.CBC);
+						Mulkts7rbVeJtTF0Ma.JuneMethod27(rijndaelManaged, CipherMode.CBC);
 						num = 123;
 						if (!true)
 						{
@@ -380,7 +380,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 81:
 						array2[29] = 197 - 65;
 						num = 169;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_30;
 						}
@@ -408,7 +408,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 90:
 						array2[25] = (byte)num2;
 						num = 50;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_22;
 						}
@@ -522,7 +522,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 134:
 						array2[28] = (byte)num2;
 						num = 270;
-						if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 						{
 							goto IL_219E;
 						}
@@ -550,7 +550,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 141:
 						array[10] = 152 - 32;
 						num = 242;
-						if (Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto IL_20F8;
 						}
@@ -594,7 +594,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 153:
 						array[14] = 143 + 56;
 						num = 194;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_2;
 						}
@@ -816,7 +816,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 228:
 						num2 = 204 - 68;
 						num = 90;
-						if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 						{
 							goto IL_854;
 						}
@@ -850,7 +850,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 236:
 						array2[17] = 129 + 2;
 						num = 56;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_21;
 						}
@@ -876,7 +876,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 242:
 						num3 = 9 + 32;
 						num = 211;
-						if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+						if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 						{
 							goto Block_12;
 						}
@@ -1004,7 +1004,7 @@ namespace KCrYf5FMCjhgoqphm4
 					case 287:
 						array2[31] = 96 + 55;
 						num = 195;
-						if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+						if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 						{
 							goto Block_26;
 						}
@@ -1112,12 +1112,12 @@ namespace KCrYf5FMCjhgoqphm4
 					arg_2317_0 = 297;
 					continue;
 					IL_694:
-					if (num4 >= Mulkts7rbVeJtTF0Ma.87T2NGQfS.Length)
+					if (num4 >= Mulkts7rbVeJtTF0Ma.JuneVariable04.Length)
 					{
 						arg_2317_0 = 313;
 						continue;
 					}
-					if (Mulkts7rbVeJtTF0Ma.OuaoP0oV6hCAiWdgPF(Mulkts7rbVeJtTF0Ma.87T2NGQfS[num4], text))
+					if (Mulkts7rbVeJtTF0Ma.OuaoP0oV6hCAiWdgPF(Mulkts7rbVeJtTF0Ma.JuneVariable04[num4], text))
 					{
 						goto Block_10;
 					}
@@ -1159,7 +1159,7 @@ namespace KCrYf5FMCjhgoqphm4
 					IL_116B:
 					array2[20] = (byte)num2;
 					num = 5;
-					if (Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+					if (Mulkts7rbVeJtTF0Ma.JuneMethod32())
 					{
 						goto IL_118C;
 					}
@@ -1255,7 +1255,7 @@ namespace KCrYf5FMCjhgoqphm4
 					IL_854:
 					num2 = 87 + 62;
 					num = 30;
-					if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+					if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 					{
 						goto Block_7;
 					}
@@ -1299,7 +1299,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_85:
 				num2 = 35 + 1;
 				num = 57;
-				if (Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					goto IL_A7;
 				}
@@ -1307,7 +1307,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1120:
 				num3 = 137 + 78;
 				num = 167;
-				if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					goto IL_85;
 				}
@@ -1330,7 +1330,7 @@ namespace KCrYf5FMCjhgoqphm4
 				}
 				continue;
 				IL_2E0:
-				text = Mulkts7rbVeJtTF0Ma.5bbs9SArssC1SyNkGQ(resolveEventArgs);
+				text = Mulkts7rbVeJtTF0Ma.JuneMethod30(resolveEventArgs);
 				num = 168;
 				continue;
 				IL_2F6:
@@ -1340,7 +1340,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_3B1:
 				array2[8] = 232 - 77;
 				num = 189;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1363,7 +1363,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_4D7:
 				array2[27] = (byte)num2;
 				num = 32;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1371,7 +1371,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_553:
 				array2[16] = 194 - 64;
 				num = 47;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1379,7 +1379,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1B9D:
 				array[13] = 17 + 72;
 				num = 71;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1409,7 +1409,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_CBE:
 				num2 = 32 + 116;
 				num = 7;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1422,7 +1422,7 @@ namespace KCrYf5FMCjhgoqphm4
 				ICryptoTransform transform;
 				cryptoStream = new CryptoStream(memoryStream, transform, CryptoStreamMode.Write);
 				num = 16;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1465,14 +1465,14 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_976:
 				num2 = 64 + 52;
 				num = 164;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
 				IL_998:
 				array2[14] = (byte)num2;
 				num = 259;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1511,7 +1511,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_C09:
 				array[4] = 197 - 65;
 				num = 84;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1529,7 +1529,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_C71:
 				array[0] = (byte)num3;
 				num = 280;
-				if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					goto IL_1DA4;
 				}
@@ -1551,7 +1551,7 @@ namespace KCrYf5FMCjhgoqphm4
 					continue;
 				}
 				IL_DCA:
-				Mulkts7rbVeJtTF0Ma.5Dpx2hsoH = Mulkts7rbVeJtTF0Ma.HUVhRVfU6ZEOb6tH9f(Mulkts7rbVeJtTF0Ma.0qsCY3JrY00iMtF0OT(array5));
+				Mulkts7rbVeJtTF0Ma.JuneMethod06 = Mulkts7rbVeJtTF0Ma.HUVhRVfU6ZEOb6tH9f(Mulkts7rbVeJtTF0Ma.JuneMethod29(array5));
 				num = 248;
 				continue;
 				IL_DE8:
@@ -1594,7 +1594,7 @@ namespace KCrYf5FMCjhgoqphm4
 				}
 				continue;
 				IL_10E3:
-				transform = Mulkts7rbVeJtTF0Ma.1FPoU9Eyje36JGI4Ki(rijndaelManaged, array4, array6);
+				transform = Mulkts7rbVeJtTF0Ma.JuneMethod28(rijndaelManaged, array4, array6);
 				num = 265;
 				continue;
 				IL_10FD:
@@ -1621,7 +1621,7 @@ namespace KCrYf5FMCjhgoqphm4
 					continue;
 				}
 				IL_12D5:
-				binaryReader = new BinaryReader(Mulkts7rbVeJtTF0Ma.jl1T0Laaxdex2RCImF(Mulkts7rbVeJtTF0Ma.wO1kgixW8LfJgwSeuk(typeof(i4iw8SpaFI6rqcQywY).TypeHandle).Assembly, i4iw8SpaFI6rqcQywY.lxGHuH450(52540)));
+				binaryReader = new BinaryReader(Mulkts7rbVeJtTF0Ma.jl1T0Laaxdex2RCImF(Mulkts7rbVeJtTF0Ma.wO1kgixW8LfJgwSeuk(typeof(JuneClass02).TypeHandle).Assembly, JuneClass02.lxGHuH450(52540)));
 				num = 78;
 				continue;
 				IL_1307:
@@ -1631,7 +1631,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_139E:
 				num2 = 140 - 46;
 				num = 134;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1646,7 +1646,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1450:
 				num3 = 155 - 78;
 				num = 152;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1658,7 +1658,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_14B3:
 				num3 = 163 - 54;
 				num = 135;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1691,7 +1691,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1703:
 				array[1] = (byte)num3;
 				num = 245;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1707,7 +1707,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_17B3:
 				num2 = 127 - 62;
 				num = 29;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1721,7 +1721,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_17F9:
 				array2[3] = (byte)num2;
 				num = 147;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1741,7 +1741,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_19C6:
 				array[15] = 153 - 51;
 				num = 227;
-				if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					goto IL_19EE;
 				}
@@ -1757,7 +1757,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1FA5:
 				num2 = 188 - 62;
 				num = 95;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1782,7 +1782,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1BDF:
 				num3 = 14 + 42;
 				num = 35;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1808,7 +1808,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1CA4:
 				array2[13] = (byte)num2;
 				num = 54;
-				if (Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					continue;
 				}
@@ -1816,7 +1816,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_1E01:
 				array2[25] = 134 + 72;
 				num = 2;
-				if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					goto IL_1A0D;
 				}
@@ -1840,7 +1840,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_225F:
 				num2 = 247 - 82;
 				num = 273;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1868,7 +1868,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_2213:
 				array2[18] = 67 + 75;
 				num = 252;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1883,7 +1883,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_2286:
 				num2 = 16 + 27;
 				num = 208;
-				if (!Mulkts7rbVeJtTF0Ma.2fdXFQ2A3gpBkkHaw4())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod32())
 				{
 					continue;
 				}
@@ -1902,7 +1902,7 @@ namespace KCrYf5FMCjhgoqphm4
 				IL_2912:
 				num2 = 8 + 64;
 				num = 131;
-				if (!Mulkts7rbVeJtTF0Ma.8d0touHPSVCsJn9os7())
+				if (!Mulkts7rbVeJtTF0Ma.JuneMethod31())
 				{
 					goto IL_287A;
 				}
@@ -1961,7 +1961,7 @@ namespace KCrYf5FMCjhgoqphm4
 			arg_230F_0 = 13;
 			goto IL_230F;
 			IL_487:
-			Mulkts7rbVeJtTF0Ma.87T2NGQfS = Mulkts7rbVeJtTF0Ma.FR8hetjh19sDvhR1nt(Mulkts7rbVeJtTF0Ma.5Dpx2hsoH);
+			Mulkts7rbVeJtTF0Ma.JuneVariable04 = Mulkts7rbVeJtTF0Ma.FR8hetjh19sDvhR1nt(Mulkts7rbVeJtTF0Ma.JuneMethod06);
 			arg_230F_0 = 107;
 			goto IL_230F;
 			IL_4B8:
@@ -2021,7 +2021,7 @@ namespace KCrYf5FMCjhgoqphm4
 			arg_230F_0 = 257;
 			goto IL_230F;
 			IL_D02:
-			return Mulkts7rbVeJtTF0Ma.5Dpx2hsoH;
+			return Mulkts7rbVeJtTF0Ma.JuneMethod06;
 			IL_D8E:
 			array2[26] = (byte)num2;
 			arg_230F_0 = 102;
@@ -2251,8 +2251,8 @@ namespace KCrYf5FMCjhgoqphm4
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static Mulkts7rbVeJtTF0Ma()
 		{
-			Mulkts7rbVeJtTF0Ma.87T2NGQfS = new string[0];
-			Mulkts7rbVeJtTF0Ma.5Dpx2hsoH = null;
+			Mulkts7rbVeJtTF0Ma.JuneVariable04 = new string[0];
+			Mulkts7rbVeJtTF0Ma.JuneMethod06 = null;
 			Mulkts7rbVeJtTF0Ma.v7TIv74O9 = false;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
@@ -2286,12 +2286,12 @@ namespace KCrYf5FMCjhgoqphm4
 			return obj.ReadBytes(count);
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static void 75j3exysGeHBqb4ksp(object obj, CipherMode mode)
+		internal static void JuneMethod27(object obj, CipherMode mode)
 		{
 			obj.Mode = mode;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 1FPoU9Eyje36JGI4Ki(object obj, object rgbKey, object rgbIV)
+		internal static object JuneMethod28(object obj, object rgbKey, object rgbIV)
 		{
 			return obj.CreateDecryptor(rgbKey, rgbIV);
 		}
@@ -2321,7 +2321,7 @@ namespace KCrYf5FMCjhgoqphm4
 			obj.Close();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 0qsCY3JrY00iMtF0OT(object obj)
+		internal static object JuneMethod29(object obj)
 		{
 			return Mulkts7rbVeJtTF0Ma.gZ5KOvTWlUcAexhp8h.o7CEe0Lxp(obj);
 		}
@@ -2336,7 +2336,7 @@ namespace KCrYf5FMCjhgoqphm4
 			return obj.GetManifestResourceNames();
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static object 5bbs9SArssC1SyNkGQ(object obj)
+		internal static object JuneMethod30(object obj)
 		{
 			return obj.Name;
 		}
@@ -2346,12 +2346,12 @@ namespace KCrYf5FMCjhgoqphm4
 			return a == b;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static bool 8d0touHPSVCsJn9os7()
+		internal static bool JuneMethod31()
 		{
 			return true;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static bool 2fdXFQ2A3gpBkkHaw4()
+		internal static bool JuneMethod32()
 		{
 			return false;
 		}

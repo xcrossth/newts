@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,8 +15,8 @@ namespace Server_TS_Online
 		public int _idBattle;
 		public int _Diahinh;
 		private Random lxGHuH450;
-		private Random 87T2NGQfS;
-		private Random 5Dpx2hsoH;
+		private Random JuneVariable04;
+		private Random JuneMethod06;
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public void CreatNewBattle()
 		{
@@ -98,7 +98,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandom_honLoan(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttack_honLoan(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -108,7 +108,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandom(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttack(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -118,7 +118,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandomCombo(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttackCombo(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -128,7 +128,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandomTG(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttackTG(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -138,7 +138,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandom3_15(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttack3_15(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -148,7 +148,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandom_GiaiTru(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttack_GiaiTru(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -158,7 +158,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public Point GetPosRandom_Type4(int _IdBattle, int myteam, int rowAttack, int columnAttack)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl8;
+			return JuneClass5.fieldimpl8;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public ArrayList GetPosAttack_Type4(int _IdBattle, int myteam, int rowAttack, int columnAttack, int SLDanh)
@@ -246,22 +246,22 @@ namespace Server_TS_Online
 		}
 		[DebuggerStepThrough, CompilerGenerated]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void _Lambda$__2(object a0)
+		private void JuneMethod02(object a0)
 		{
 		}
 		[DebuggerStepThrough, CompilerGenerated]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void _Lambda$__3(object a0)
+		private void JuneMethod03(object a0)
 		{
 		}
 		[DebuggerStepThrough, CompilerGenerated]
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		private void _Lambda$__4(object a0)
+		private void JuneMethod04(object a0)
 		{
 		}
 		static TheBattle()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

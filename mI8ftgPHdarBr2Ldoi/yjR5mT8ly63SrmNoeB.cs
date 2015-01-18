@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using DI8TY5bwqpaaMjTOyG;
 using LHgl4yxBZtFUmrale9;
 using Microsoft.VisualBasic;
@@ -76,7 +76,7 @@ namespace mI8ftgPHdarBr2Ldoi
 			}
 			static g1CuEy06FDYfncbcr9()
 			{
-				i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+				JuneClass02.UUCbAVAAM();
 			}
 		}
 		[MyGroupCollection("System.Web.Services.Protocols.SoapHttpClientProtocol", "Create__Instance__", "Dispose__Instance__", ""), EditorBrowsable(EditorBrowsableState.Never)]
@@ -106,12 +106,16 @@ namespace mI8ftgPHdarBr2Ldoi
 			{
 				return null;
 			}
+
+            /* no ref function
 			[DebuggerHidden]
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			private static T xnm25EvvJ<T>(T instance) where T : new()
 			{
 				return null;
 			}
+             * */
+
 			[DebuggerHidden]
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			private void jLWxniJso<T>(ref T ptr)
@@ -124,7 +128,7 @@ namespace mI8ftgPHdarBr2Ldoi
 			}
 			static LPZhMiC0dCYcVf0RGj()
 			{
-				i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+				JuneClass02.UUCbAVAAM();
 			}
 		}
 		[EditorBrowsable(EditorBrowsableState.Never), ComVisible(false)]
@@ -132,12 +136,16 @@ namespace mI8ftgPHdarBr2Ldoi
 		{
 			[CompilerGenerated, ThreadStatic]
 			private static T jLWxniJso;
+
+            /* un ref code
 			[DebuggerHidden]
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			internal T sDfHTqQQj()
 			{
 				return null;
 			}
+             * */
+
 			[EditorBrowsable(EditorBrowsableState.Never), DebuggerHidden]
 			[MethodImpl(MethodImplOptions.NoInlining)]
 			public dTX4blddlUaMdmtl99()
@@ -145,7 +153,7 @@ namespace mI8ftgPHdarBr2Ldoi
 			}
 			static dTX4blddlUaMdmtl99()
 			{
-				i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+				JuneClass02.UUCbAVAAM();
 			}
 		}
 		private static readonly yjR5mT8ly63SrmNoeB.dTX4blddlUaMdmtl99<JpQ8gEATWAHIpg0b0B> QEamYO9Tv;
@@ -206,7 +214,7 @@ namespace mI8ftgPHdarBr2Ldoi
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static yjR5mT8ly63SrmNoeB()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 			yjR5mT8ly63SrmNoeB.QEamYO9Tv = new yjR5mT8ly63SrmNoeB.dTX4blddlUaMdmtl99<JpQ8gEATWAHIpg0b0B>();
 			yjR5mT8ly63SrmNoeB.rQmMeOKeP = new yjR5mT8ly63SrmNoeB.dTX4blddlUaMdmtl99<nkOHS02WeUR2u5xkyN>();
 			yjR5mT8ly63SrmNoeB.e3KgUGFPf = new yjR5mT8ly63SrmNoeB.dTX4blddlUaMdmtl99<User>();

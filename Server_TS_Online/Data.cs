@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using mI8ftgPHdarBr2Ldoi;
 using System;
 using System.Collections;
@@ -13,7 +13,7 @@ namespace Server_TS_Online
 		private static Random HwB2jHQm1;
 		private static string OYaxjjqYB;
 		public static OleDbConnection conn_Account;
-		private static Random 4DaMrGOhr;
+		private static Random JuneVariable05;
 		public static string _Status;
 		public static bool LoadedData;
 		public static Dictionary<int, DataStructure.Npcs> Data_Npcs;
@@ -23,7 +23,7 @@ namespace Server_TS_Online
 		public static Dictionary<DataStructure.Key_Talk, DataStructure._Talk> Data_Talks;
 		public static Dictionary<int, DataStructure._Texp> Texps;
 		public static Dictionary<int, DataStructure.BattleGates> Data_BattleGates;
-		private static Random 1CcbCDnbw;
+		private static Random JuneVariable06;
 		public static Dictionary<DataStructure.Key_NpcOnMap, DataStructure._NpcOnMap> NpcOnMap;
 		public static ArrayList _ListKeysNpcOnMap;
 		public static ArrayList _ListKeysItemOnMap;
@@ -37,12 +37,12 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
 		static Data()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 			Data.CoTHmccdy = new Random();
 			Data.HwB2jHQm1 = new Random();
-			Data.OYaxjjqYB = yjR5mT8ly63SrmNoeB.GIgC68bmG.Info.DirectoryPath + i4iw8SpaFI6rqcQywY.lxGHuH450(12744);
-			Data.conn_Account = new OleDbConnection(i4iw8SpaFI6rqcQywY.lxGHuH450(12786) + Data.OYaxjjqYB + i4iw8SpaFI6rqcQywY.lxGHuH450(12882));
-			Data.4DaMrGOhr = new Random();
+			Data.OYaxjjqYB = yjR5mT8ly63SrmNoeB.GIgC68bmG.Info.DirectoryPath + JuneClass02.lxGHuH450(12744);
+			Data.conn_Account = new OleDbConnection(JuneClass02.lxGHuH450(12786) + Data.OYaxjjqYB + JuneClass02.lxGHuH450(12882));
+			Data.JuneVariable05 = new Random();
 			Data._Status = "";
 			Data.LoadedData = false;
 			Data.Data_Npcs = new Dictionary<int, DataStructure.Npcs>();
@@ -52,7 +52,7 @@ namespace Server_TS_Online
 			Data.Data_Talks = new Dictionary<DataStructure.Key_Talk, DataStructure._Talk>();
 			Data.Texps = new Dictionary<int, DataStructure._Texp>();
 			Data.Data_BattleGates = new Dictionary<int, DataStructure.BattleGates>();
-			Data.1CcbCDnbw = new Random();
+			Data.JuneVariable06 = new Random();
 			Data.NpcOnMap = new Dictionary<DataStructure.Key_NpcOnMap, DataStructure._NpcOnMap>();
 			Data._ListKeysNpcOnMap = new ArrayList();
 			Data._ListKeysItemOnMap = new ArrayList();
@@ -216,7 +216,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.HomdoInfo TrangbiGetDataItem(OleDbConnection conn, int Slot)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl3;
+			return JuneClass5.fieldimpl3;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static int TrangbiGetDataItem(OleDbConnection conn, int Slot, string Type)
@@ -247,7 +247,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.HomdoInfo TuideoGetDataItem(OleDbConnection conn, int Slot)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl3;
+			return JuneClass5.fieldimpl3;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static int TuideoGetSlotNothing(OleDbConnection conn)
@@ -257,7 +257,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.HomdoInfo LuulangGetDataItem(OleDbConnection conn, int Slot)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl3;
+			return JuneClass5.fieldimpl3;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static int LuulangGetSlotNothing(OleDbConnection conn)
@@ -282,7 +282,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.HomdoInfo HomdoGetDataItem(OleDbConnection conn, int Slot)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl3;
+			return JuneClass5.fieldimpl3;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void HomdoAddItem(int _IdPlayer, int ID, int Count)
@@ -414,7 +414,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.HomdoInfo GetDataItem(int _id)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl3;
+			return JuneClass5.fieldimpl3;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static bool GetDataItemExits(int _Id)
@@ -438,7 +438,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.Key_Warps GetKey_Warps(int _Mapid1, int _WarpId)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl4;
+			return JuneClass5.fieldimpl4;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
 		public static void LoadDataWarps()
@@ -479,7 +479,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.Key_NpcOnMap GetKey_NpcOnMap(int _Mapid, int _Id)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl5;
+			return JuneClass5.fieldimpl5;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void CreatMapNpc()
@@ -497,12 +497,12 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.Key_ItemOnMap GetKey_ItemOnMap(int _Mapid, int _ItemId, int _X, int _Y)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl6;
+			return JuneClass5.fieldimpl6;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static DataStructure.Key_ItemDropOnMap GetKey_ItemDropOnMap(int _Mapid, int _Slot)
 		{
-			return <PrivateImplementationDetails>{DF4733E3-813D-4159-ACCB-42DEDC13E2A8}.fieldimpl7;
+			return JuneClass5.fieldimpl7;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void SystemDropItem(int _mapid, int _mapx, int _mapy, int _ItemId, int Delay)

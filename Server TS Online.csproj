@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{9A852819-59D4-41C7-8DBF-6133396AC541}</ProjectGuid>
@@ -24,18 +24,22 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="-Module-{76F536D7-8FD8-4B0E-8D69-75FC07FC1537}.cs" />
     <Compile Include="0S3Qo4yIEbfEJKcxXW\i4iw8SpaFI6rqcQywY.cs" />
     <Compile Include="644Wu2DWvcWVDNqk8i\3mssI7NZxbwfRitosh.cs" />
     <Compile Include="DI8TY5bwqpaaMjTOyG\JpQ8gEATWAHIpg0b0B.cs" />
+    <Compile Include="JuneClass5.cs" />
     <Compile Include="KCrYf5FMCjhgoqphm4\Mulkts7rbVeJtTF0Ma.cs" />
     <Compile Include="kN9brGSTApbNPXTXkw\mqQuru3KPGtZmiCrl0.cs" />
     <Compile Include="LHgl4yxBZtFUmrale9\nkOHS02WeUR2u5xkyN.cs" />
@@ -48,7 +52,9 @@
     <Compile Include="Server_TS_Online\Data.cs" />
     <Compile Include="Server_TS_Online\DataStructure.cs" />
     <Compile Include="Server_TS_Online\FChat.cs" />
-    <Compile Include="Server_TS_Online\FormServer.cs" />
+    <Compile Include="Server_TS_Online\FormServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Server_TS_Online\FTalk.cs" />
     <Compile Include="Server_TS_Online\FWalk.cs" />
     <Compile Include="Server_TS_Online\Server.cs" />

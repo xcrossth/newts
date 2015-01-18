@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using System;
@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Resources;
 using System.Runtime.CompilerServices;
-namespace 644Wu2DWvcWVDNqk8i
+namespace JuneNamespace2
 {
 	[StandardModule, HideModuleName, GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"), DebuggerNonUserCode, CompilerGenerated]
-	internal sealed class 3mssI7NZxbwfRitosh
+	internal sealed class JuneClass04
 	{
 		private static ResourceManager nqtLYYn0t;
 		private static CultureInfo p5aG7EnQy;
@@ -43,7 +43,7 @@ namespace 644Wu2DWvcWVDNqk8i
 			return null;
 		}
 		[MethodImpl(MethodImplOptions.NoInlining)]
-		internal static string 3vL0cyhog()
+		internal static string JuneMethod08()
 		{
 			return null;
 		}
@@ -102,9 +102,9 @@ namespace 644Wu2DWvcWVDNqk8i
 		{
 			return null;
 		}
-		static 3mssI7NZxbwfRitosh()
+		static JuneClass04()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

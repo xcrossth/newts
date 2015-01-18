@@ -1,4 +1,4 @@
-using 0S3Qo4yIEbfEJKcxXW;
+using JuneNameSpace1;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -21,7 +21,7 @@ namespace Server_TS_Online
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		static Server()
 		{
-			i4iw8SpaFI6rqcQywY.UUCbAVAAM();
+			JuneClass02.UUCbAVAAM();
 			Server.ListView_Client = new ListView();
 			Server.PerEXP = 1;
 			Server.percent_item1 = 200;
