@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{9A852819-59D4-41C7-8DBF-6133396AC541}</ProjectGuid>
+    <ProjectGuid>{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>WinExe</OutputType>
@@ -24,27 +24,22 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Data" />
+    <Reference Include="System" />
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="0S3Qo4yIEbfEJKcxXW\i4iw8SpaFI6rqcQywY.cs" />
-    <Compile Include="644Wu2DWvcWVDNqk8i\3mssI7NZxbwfRitosh.cs" />
-    <Compile Include="DI8TY5bwqpaaMjTOyG\JpQ8gEATWAHIpg0b0B.cs" />
-    <Compile Include="JuneClass5.cs" />
-    <Compile Include="KCrYf5FMCjhgoqphm4\Mulkts7rbVeJtTF0Ma.cs" />
-    <Compile Include="kN9brGSTApbNPXTXkw\mqQuru3KPGtZmiCrl0.cs" />
-    <Compile Include="LHgl4yxBZtFUmrale9\nkOHS02WeUR2u5xkyN.cs" />
-    <Compile Include="Mguibfk6rQbauK6c0H\INRlpxuO15vQCyaW6F.cs" />
-    <Compile Include="mI8ftgPHdarBr2Ldoi\yjR5mT8ly63SrmNoeB.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Form0.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server_TS_Online.My\MySettings.cs" />
     <Compile Include="Server_TS_Online\Client.cs" />
@@ -56,15 +51,16 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Server_TS_Online\FTalk.cs" />
+    <Compile Include="Server_TS_Online\FTienTrang.cs" />
     <Compile Include="Server_TS_Online\FWalk.cs" />
     <Compile Include="Server_TS_Online\Server.cs" />
     <Compile Include="Server_TS_Online\TheBattle.cs" />
-    <Compile Include="UKcdFWMcpVUThLlYXi\F6EPBOmfUID684xeWx.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="02cbe430-5071-47f9-9bc7-b85d804ff387" />
-    <EmbeddedResource Include="1b16157d-4c2f-4766-bcea-ec5f863497a0" />
-    <EmbeddedResource Include="dbc1783b-c6ca-4f9e-aedc-463222881395" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.rFohpatkdxsVcxLfJKhM7.resources" />
+    <EmbeddedResource Include="Server_TS_Online\FormServer.resources" />
+    <EmbeddedResource Include="Server_TS_Online\Resources.resources" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

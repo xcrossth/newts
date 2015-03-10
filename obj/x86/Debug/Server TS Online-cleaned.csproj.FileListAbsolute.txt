@@ -1,0 +1,4 @@
+C:\Dropbox\SourceCode\DVT\TSVN14\dvt1006Clean\bin\Debug\Server TS Online.exe
+C:\Dropbox\SourceCode\DVT\TSVN14\dvt1006Clean\bin\Debug\Server TS Online.pdb
+C:\Dropbox\SourceCode\DVT\TSVN14\dvt1006Clean\obj\x86\Debug\Server TS Online.exe
+C:\Dropbox\SourceCode\DVT\TSVN14\dvt1006Clean\obj\x86\Debug\Server TS Online.pdb

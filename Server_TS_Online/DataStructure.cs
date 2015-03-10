@@ -1,7 +1,5 @@
-using JuneNameSpace1;
 using Microsoft.VisualBasic.CompilerServices;
 using System;
-using System.Runtime.CompilerServices;
 namespace Server_TS_Online
 {
 	[StandardModule]
@@ -10,11 +8,9 @@ namespace Server_TS_Online
 		public struct Packet
 		{
 			public static string _Header;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Packet()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Packet._Header = JuneClass02.lxGHuH450(24330);
+				DataStructure.Packet._Header = "F444";
 			}
 		}
 		public struct TeamDeffender
@@ -29,10 +25,6 @@ namespace Server_TS_Online
 			public int _id8;
 			public int _id9;
 			public int _id10;
-			static TeamDeffender()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct HomdoInfo
 		{
@@ -63,10 +55,6 @@ namespace Server_TS_Online
 			public int _GiatriThuoctinh;
 			public int _Loai;
 			public int _TExp;
-			static HomdoInfo()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Npcs
 		{
@@ -93,10 +81,6 @@ namespace Server_TS_Online
 			public int _Item6;
 			public int _Bat;
 			public int _Reborn;
-			static Npcs()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Skills
 		{
@@ -118,14 +102,16 @@ namespace Server_TS_Online
 			public int _Combo;
 			public int _Delay;
 			public int _TroiBuff;
-			static Skills()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
+		}
+		public struct BattleGates_key
+		{
+			public int _MapId;
+			public int _WarpId;
 		}
 		public struct BattleGates
 		{
-			public int _Id;
+			public int _MapId;
+			public int _WarpId;
 			public int _Diahinh;
 			public int _1;
 			public int _2;
@@ -137,10 +123,6 @@ namespace Server_TS_Online
 			public int _8;
 			public int _9;
 			public int _10;
-			static BattleGates()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Items
 		{
@@ -166,10 +148,6 @@ namespace Server_TS_Online
 			public int _Thuoctinh;
 			public int _GiatriThuoctinh;
 			public int _Loai;
-			static Items()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Warps
 		{
@@ -179,29 +157,17 @@ namespace Server_TS_Online
 			public int _X;
 			public int _Y;
 			public int _Battle;
-			static Warps()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Key_Warps
 		{
 			public int _MapId1;
 			public int _WarpId;
-			static Key_Warps()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _MyPet
 		{
 			public int _Id;
 			public string _Name;
 			public int _Quest;
-			static _MyPet()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _Texp
 		{
@@ -209,10 +175,6 @@ namespace Server_TS_Online
 			public int _0;
 			public int _1;
 			public int _2;
-			static _Texp()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _Talk
 		{
@@ -231,10 +193,6 @@ namespace Server_TS_Online
 			public string _8;
 			public string _9;
 			public string _10;
-			static _Talk()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Key_Talk
 		{
@@ -242,19 +200,11 @@ namespace Server_TS_Online
 			public string _Type;
 			public int _Id;
 			public int _Step;
-			static Key_Talk()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Key_NpcOnMap
 		{
 			public int _MapId;
 			public int _Id;
-			static Key_NpcOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _NpcOnMap
 		{
@@ -269,10 +219,6 @@ namespace Server_TS_Online
 			public int _Delay;
 			public int _SoLuong;
 			public int _IdBattle;
-			static _NpcOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Key_ItemOnMap
 		{
@@ -280,10 +226,6 @@ namespace Server_TS_Online
 			public int _ItemId;
 			public int _X;
 			public int _Y;
-			static Key_ItemOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _ItemOnMap
 		{
@@ -293,19 +235,11 @@ namespace Server_TS_Online
 			public int _Y;
 			public int _Delay;
 			public int _DelayDec;
-			static _ItemOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Key_ItemDropOnMap
 		{
 			public int _MapId;
 			public int _Slot;
-			static Key_ItemDropOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct _ItemDropOnMap
 		{
@@ -342,10 +276,6 @@ namespace Server_TS_Online
 			public int _Loai;
 			public int _TExp;
 			public int _Gold;
-			static _ItemDropOnMap()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct WarInfo
 		{
@@ -388,23 +318,17 @@ namespace Server_TS_Online
 			public int _Attacked;
 			public int _Exp;
 			public string _Packet;
-			static WarInfo()
-			{
-				JuneClass02.UUCbAVAAM();
-			}
 		}
 		public struct Type_Account
 		{
 			public static string _Id;
 			public static string _pass1;
 			public static string _Pass2;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Account()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Account._Id = JuneClass02.lxGHuH450(24342);
-				DataStructure.Type_Account._pass1 = JuneClass02.lxGHuH450(24350);
-				DataStructure.Type_Account._Pass2 = JuneClass02.lxGHuH450(24364);
+				DataStructure.Type_Account._Id = "Id";
+				DataStructure.Type_Account._pass1 = "pass1";
+				DataStructure.Type_Account._Pass2 = "Pass2";
 			}
 		}
 		public struct Type_Npc
@@ -432,33 +356,31 @@ namespace Server_TS_Online
 			public static string _Item6;
 			public static string _Bat;
 			public static string _Reborn;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Npc()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Npc._Id = JuneClass02.lxGHuH450(24378);
-				DataStructure.Type_Npc._Name = JuneClass02.lxGHuH450(24386);
-				DataStructure.Type_Npc._Lv = JuneClass02.lxGHuH450(24398);
-				DataStructure.Type_Npc._Thuoctinh = JuneClass02.lxGHuH450(24406);
-				DataStructure.Type_Npc._Hp = JuneClass02.lxGHuH450(24428);
-				DataStructure.Type_Npc._Sp = JuneClass02.lxGHuH450(24436);
-				DataStructure.Type_Npc._Hpx = JuneClass02.lxGHuH450(24444);
-				DataStructure.Type_Npc._Spx = JuneClass02.lxGHuH450(24454);
-				DataStructure.Type_Npc._Int = JuneClass02.lxGHuH450(24464);
-				DataStructure.Type_Npc._Atk = JuneClass02.lxGHuH450(24474);
-				DataStructure.Type_Npc._Def = JuneClass02.lxGHuH450(24484);
-				DataStructure.Type_Npc._Agi = JuneClass02.lxGHuH450(24494);
-				DataStructure.Type_Npc._Skill1 = JuneClass02.lxGHuH450(24504);
-				DataStructure.Type_Npc._Skill2 = JuneClass02.lxGHuH450(24520);
-				DataStructure.Type_Npc._Skill3 = JuneClass02.lxGHuH450(24536);
-				DataStructure.Type_Npc._Item1 = JuneClass02.lxGHuH450(24552);
-				DataStructure.Type_Npc._Item2 = JuneClass02.lxGHuH450(24566);
-				DataStructure.Type_Npc._Item3 = JuneClass02.lxGHuH450(24580);
-				DataStructure.Type_Npc._Item4 = JuneClass02.lxGHuH450(24594);
-				DataStructure.Type_Npc._Item5 = JuneClass02.lxGHuH450(24608);
-				DataStructure.Type_Npc._Item6 = JuneClass02.lxGHuH450(24622);
-				DataStructure.Type_Npc._Bat = JuneClass02.lxGHuH450(24636);
-				DataStructure.Type_Npc._Reborn = JuneClass02.lxGHuH450(24646);
+				DataStructure.Type_Npc._Id = "Id";
+				DataStructure.Type_Npc._Name = "Name";
+				DataStructure.Type_Npc._Lv = "Lv";
+				DataStructure.Type_Npc._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Npc._Hp = "Hp";
+				DataStructure.Type_Npc._Sp = "Sp";
+				DataStructure.Type_Npc._Hpx = "Hpx";
+				DataStructure.Type_Npc._Spx = "Spx";
+				DataStructure.Type_Npc._Int = "Int";
+				DataStructure.Type_Npc._Atk = "Atk";
+				DataStructure.Type_Npc._Def = "Def";
+				DataStructure.Type_Npc._Agi = "Agi";
+				DataStructure.Type_Npc._Skill1 = "Skill1";
+				DataStructure.Type_Npc._Skill2 = "Skill2";
+				DataStructure.Type_Npc._Skill3 = "Skill3";
+				DataStructure.Type_Npc._Item1 = "Item1";
+				DataStructure.Type_Npc._Item2 = "Item2";
+				DataStructure.Type_Npc._Item3 = "Item3";
+				DataStructure.Type_Npc._Item4 = "Item4";
+				DataStructure.Type_Npc._Item5 = "Item5";
+				DataStructure.Type_Npc._Item6 = "Item6";
+				DataStructure.Type_Npc._Bat = "Bat";
+				DataStructure.Type_Npc._Reborn = "Reborn";
 			}
 		}
 		public struct Type_Pet
@@ -498,45 +420,43 @@ namespace Server_TS_Online
 			public static string _LvSkill3;
 			public static string _IdSkill4;
 			public static string _LvSkill4;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Pet()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Pet._Stt = JuneClass02.lxGHuH450(24662);
-				DataStructure.Type_Pet._ID = JuneClass02.lxGHuH450(24672);
-				DataStructure.Type_Pet._Lv = JuneClass02.lxGHuH450(24680);
-				DataStructure.Type_Pet._Name = JuneClass02.lxGHuH450(24688);
-				DataStructure.Type_Pet._Thuoctinh = JuneClass02.lxGHuH450(24700);
-				DataStructure.Type_Pet._Reborn = JuneClass02.lxGHuH450(24722);
-				DataStructure.Type_Pet._Hp = JuneClass02.lxGHuH450(24738);
-				DataStructure.Type_Pet._Hpmax = JuneClass02.lxGHuH450(24746);
-				DataStructure.Type_Pet._Sp = JuneClass02.lxGHuH450(24760);
-				DataStructure.Type_Pet._Spmax = JuneClass02.lxGHuH450(24768);
-				DataStructure.Type_Pet._Int = JuneClass02.lxGHuH450(24782);
-				DataStructure.Type_Pet._Atk = JuneClass02.lxGHuH450(24792);
-				DataStructure.Type_Pet._Def = JuneClass02.lxGHuH450(24802);
-				DataStructure.Type_Pet._Hpx = JuneClass02.lxGHuH450(24812);
-				DataStructure.Type_Pet._Spx = JuneClass02.lxGHuH450(24822);
-				DataStructure.Type_Pet._Agi = JuneClass02.lxGHuH450(24832);
-				DataStructure.Type_Pet._Fai = JuneClass02.lxGHuH450(24842);
-				DataStructure.Type_Pet._Texp = JuneClass02.lxGHuH450(24852);
-				DataStructure.Type_Pet._Int2 = JuneClass02.lxGHuH450(24864);
-				DataStructure.Type_Pet._Atk2 = JuneClass02.lxGHuH450(24876);
-				DataStructure.Type_Pet._Def2 = JuneClass02.lxGHuH450(24888);
-				DataStructure.Type_Pet._Hpx2 = JuneClass02.lxGHuH450(24900);
-				DataStructure.Type_Pet._Spx2 = JuneClass02.lxGHuH450(24912);
-				DataStructure.Type_Pet._Agi2 = JuneClass02.lxGHuH450(24924);
-				DataStructure.Type_Pet._Thd = JuneClass02.lxGHuH450(24936);
-				DataStructure.Type_Pet._SkillPoint = JuneClass02.lxGHuH450(24946);
-				DataStructure.Type_Pet._Quest = JuneClass02.lxGHuH450(24970);
-				DataStructure.Type_Pet._IdSkill1 = JuneClass02.lxGHuH450(24984);
-				DataStructure.Type_Pet._LvSkill1 = JuneClass02.lxGHuH450(25004);
-				DataStructure.Type_Pet._IdSkill2 = JuneClass02.lxGHuH450(25024);
-				DataStructure.Type_Pet._LvSkill2 = JuneClass02.lxGHuH450(25044);
-				DataStructure.Type_Pet._IdSkill3 = JuneClass02.lxGHuH450(25064);
-				DataStructure.Type_Pet._LvSkill3 = JuneClass02.lxGHuH450(25084);
-				DataStructure.Type_Pet._IdSkill4 = JuneClass02.lxGHuH450(25104);
-				DataStructure.Type_Pet._LvSkill4 = JuneClass02.lxGHuH450(25124);
+				DataStructure.Type_Pet._Stt = "Stt";
+				DataStructure.Type_Pet._ID = "Id";
+				DataStructure.Type_Pet._Lv = "Lv";
+				DataStructure.Type_Pet._Name = "Name";
+				DataStructure.Type_Pet._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Pet._Reborn = "Reborn";
+				DataStructure.Type_Pet._Hp = "Hp";
+				DataStructure.Type_Pet._Hpmax = "Hpmax";
+				DataStructure.Type_Pet._Sp = "Sp";
+				DataStructure.Type_Pet._Spmax = "Spmax";
+				DataStructure.Type_Pet._Int = "Int";
+				DataStructure.Type_Pet._Atk = "Atk";
+				DataStructure.Type_Pet._Def = "Def";
+				DataStructure.Type_Pet._Hpx = "Hpx";
+				DataStructure.Type_Pet._Spx = "Spx";
+				DataStructure.Type_Pet._Agi = "Agi";
+				DataStructure.Type_Pet._Fai = "Fai";
+				DataStructure.Type_Pet._Texp = "Texp";
+				DataStructure.Type_Pet._Int2 = "Int2";
+				DataStructure.Type_Pet._Atk2 = "Atk2";
+				DataStructure.Type_Pet._Def2 = "Def2";
+				DataStructure.Type_Pet._Hpx2 = "Hpx2";
+				DataStructure.Type_Pet._Spx2 = "Spx2";
+				DataStructure.Type_Pet._Agi2 = "Agi2";
+				DataStructure.Type_Pet._Thd = "Thd";
+				DataStructure.Type_Pet._SkillPoint = "SkillPoint";
+				DataStructure.Type_Pet._Quest = "Quest";
+				DataStructure.Type_Pet._IdSkill1 = "IdSkill1";
+				DataStructure.Type_Pet._LvSkill1 = "LvSkill1";
+				DataStructure.Type_Pet._IdSkill2 = "IdSkill2";
+				DataStructure.Type_Pet._LvSkill2 = "LvSkill2";
+				DataStructure.Type_Pet._IdSkill3 = "IdSkill3";
+				DataStructure.Type_Pet._LvSkill3 = "LvSkill3";
+				DataStructure.Type_Pet._IdSkill4 = "IdSkill4";
+				DataStructure.Type_Pet._LvSkill4 = "LvSkill4";
 			}
 		}
 		public struct Type_Status
@@ -561,30 +481,28 @@ namespace Server_TS_Online
 			public static string _Agi2;
 			public static string _TiengTam;
 			public static string _Fai;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Status()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Status._Hp = JuneClass02.lxGHuH450(25144);
-				DataStructure.Type_Status._Sp = JuneClass02.lxGHuH450(25152);
-				DataStructure.Type_Status._Int = JuneClass02.lxGHuH450(25160);
-				DataStructure.Type_Status._atk = JuneClass02.lxGHuH450(25168);
-				DataStructure.Type_Status._def = JuneClass02.lxGHuH450(25176);
-				DataStructure.Type_Status._agi = JuneClass02.lxGHuH450(25184);
-				DataStructure.Type_Status._hpx = JuneClass02.lxGHuH450(25192);
-				DataStructure.Type_Status._spx = JuneClass02.lxGHuH450(25200);
-				DataStructure.Type_Status._lv = JuneClass02.lxGHuH450(25208);
-				DataStructure.Type_Status._TExp = JuneClass02.lxGHuH450(25216);
-				DataStructure.Type_Status._SkillPoint = JuneClass02.lxGHuH450(25224);
-				DataStructure.Type_Status._Point = JuneClass02.lxGHuH450(25232);
-				DataStructure.Type_Status._Hpx2 = JuneClass02.lxGHuH450(25240);
-				DataStructure.Type_Status._Spx2 = JuneClass02.lxGHuH450(25248);
-				DataStructure.Type_Status._Atk2 = JuneClass02.lxGHuH450(25256);
-				DataStructure.Type_Status._Def2 = JuneClass02.lxGHuH450(25264);
-				DataStructure.Type_Status._Int2 = JuneClass02.lxGHuH450(25272);
-				DataStructure.Type_Status._Agi2 = JuneClass02.lxGHuH450(25280);
-				DataStructure.Type_Status._TiengTam = JuneClass02.lxGHuH450(25288);
-				DataStructure.Type_Status._Fai = JuneClass02.lxGHuH450(25296);
+				DataStructure.Type_Status._Hp = "19";
+				DataStructure.Type_Status._Sp = "1A";
+				DataStructure.Type_Status._Int = "1B";
+				DataStructure.Type_Status._atk = "1C";
+				DataStructure.Type_Status._def = "1D";
+				DataStructure.Type_Status._agi = "1E";
+				DataStructure.Type_Status._hpx = "1F";
+				DataStructure.Type_Status._spx = "20";
+				DataStructure.Type_Status._lv = "23";
+				DataStructure.Type_Status._TExp = "24";
+				DataStructure.Type_Status._SkillPoint = "25";
+				DataStructure.Type_Status._Point = "26";
+				DataStructure.Type_Status._Hpx2 = "CF";
+				DataStructure.Type_Status._Spx2 = "D0";
+				DataStructure.Type_Status._Atk2 = "D2";
+				DataStructure.Type_Status._Def2 = "D3";
+				DataStructure.Type_Status._Int2 = "D4";
+				DataStructure.Type_Status._Agi2 = "D6";
+				DataStructure.Type_Status._TiengTam = "3E";
+				DataStructure.Type_Status._Fai = "40";
 			}
 		}
 		public struct Type_Player
@@ -628,49 +546,47 @@ namespace Server_TS_Online
 			public static string _SttPetXuatChien;
 			public static string _Pk;
 			public static string _ThamChien;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Player()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Player._Id = JuneClass02.lxGHuH450(25304);
-				DataStructure.Type_Player._Name = JuneClass02.lxGHuH450(25312);
-				DataStructure.Type_Player._Lv = JuneClass02.lxGHuH450(25324);
-				DataStructure.Type_Player._Hp = JuneClass02.lxGHuH450(25332);
-				DataStructure.Type_Player._Hpmax = JuneClass02.lxGHuH450(25340);
-				DataStructure.Type_Player._Sp = JuneClass02.lxGHuH450(25354);
-				DataStructure.Type_Player._Spmax = JuneClass02.lxGHuH450(25362);
-				DataStructure.Type_Player._Point = JuneClass02.lxGHuH450(25376);
-				DataStructure.Type_Player._SkillPoint = JuneClass02.lxGHuH450(25390);
-				DataStructure.Type_Player._Int = JuneClass02.lxGHuH450(25414);
-				DataStructure.Type_Player._Atk = JuneClass02.lxGHuH450(25424);
-				DataStructure.Type_Player._Def = JuneClass02.lxGHuH450(25434);
-				DataStructure.Type_Player._Hpx = JuneClass02.lxGHuH450(25444);
-				DataStructure.Type_Player._Spx = JuneClass02.lxGHuH450(25454);
-				DataStructure.Type_Player._Agi = JuneClass02.lxGHuH450(25464);
-				DataStructure.Type_Player._Int2 = JuneClass02.lxGHuH450(25474);
-				DataStructure.Type_Player._Atk2 = JuneClass02.lxGHuH450(25486);
-				DataStructure.Type_Player._Def2 = JuneClass02.lxGHuH450(25498);
-				DataStructure.Type_Player._Hpx2 = JuneClass02.lxGHuH450(25510);
-				DataStructure.Type_Player._Spx2 = JuneClass02.lxGHuH450(25522);
-				DataStructure.Type_Player._Agi2 = JuneClass02.lxGHuH450(25534);
-				DataStructure.Type_Player._TExp = JuneClass02.lxGHuH450(25546);
-				DataStructure.Type_Player._MapId = JuneClass02.lxGHuH450(25558);
-				DataStructure.Type_Player._MapX = JuneClass02.lxGHuH450(25572);
-				DataStructure.Type_Player._MapY = JuneClass02.lxGHuH450(25584);
-				DataStructure.Type_Player._Reborn = JuneClass02.lxGHuH450(25596);
-				DataStructure.Type_Player._Job = JuneClass02.lxGHuH450(25612);
-				DataStructure.Type_Player._Sex = JuneClass02.lxGHuH450(25622);
-				DataStructure.Type_Player._Hair = JuneClass02.lxGHuH450(25632);
-				DataStructure.Type_Player._Thuoctinh = JuneClass02.lxGHuH450(25644);
-				DataStructure.Type_Player._Ghost = JuneClass02.lxGHuH450(25666);
-				DataStructure.Type_Player._God = JuneClass02.lxGHuH450(25680);
-				DataStructure.Type_Player._Color = JuneClass02.lxGHuH450(25690);
-				DataStructure.Type_Player._GOld = JuneClass02.lxGHuH450(25704);
-				DataStructure.Type_Player._Tiengtam = JuneClass02.lxGHuH450(25716);
-				DataStructure.Type_Player._Gocnhin = JuneClass02.lxGHuH450(25736);
-				DataStructure.Type_Player._SttPetXuatChien = JuneClass02.lxGHuH450(25754);
-				DataStructure.Type_Player._Pk = JuneClass02.lxGHuH450(25788);
-				DataStructure.Type_Player._ThamChien = JuneClass02.lxGHuH450(25796);
+				DataStructure.Type_Player._Id = "Id";
+				DataStructure.Type_Player._Name = "Name";
+				DataStructure.Type_Player._Lv = "Lv";
+				DataStructure.Type_Player._Hp = "Hp";
+				DataStructure.Type_Player._Hpmax = "Hpmax";
+				DataStructure.Type_Player._Sp = "Sp";
+				DataStructure.Type_Player._Spmax = "Spmax";
+				DataStructure.Type_Player._Point = "Point";
+				DataStructure.Type_Player._SkillPoint = "SkillPoint";
+				DataStructure.Type_Player._Int = "Int";
+				DataStructure.Type_Player._Atk = "Atk";
+				DataStructure.Type_Player._Def = "Def";
+				DataStructure.Type_Player._Hpx = "Hpx";
+				DataStructure.Type_Player._Spx = "Spx";
+				DataStructure.Type_Player._Agi = "Agi";
+				DataStructure.Type_Player._Int2 = "Int2";
+				DataStructure.Type_Player._Atk2 = "Atk2";
+				DataStructure.Type_Player._Def2 = "Def2";
+				DataStructure.Type_Player._Hpx2 = "Hpx2";
+				DataStructure.Type_Player._Spx2 = "Spx2";
+				DataStructure.Type_Player._Agi2 = "Agi2";
+				DataStructure.Type_Player._TExp = "TExp";
+				DataStructure.Type_Player._MapId = "MapId";
+				DataStructure.Type_Player._MapX = "MapX";
+				DataStructure.Type_Player._MapY = "MapY";
+				DataStructure.Type_Player._Reborn = "Reborn";
+				DataStructure.Type_Player._Job = "Job";
+				DataStructure.Type_Player._Sex = "Sex";
+				DataStructure.Type_Player._Hair = "Hair";
+				DataStructure.Type_Player._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Player._Ghost = "Ghost";
+				DataStructure.Type_Player._God = "God";
+				DataStructure.Type_Player._Color = "Color";
+				DataStructure.Type_Player._GOld = "Gold";
+				DataStructure.Type_Player._Tiengtam = "Tiengtam";
+				DataStructure.Type_Player._Gocnhin = "Gocnhin";
+				DataStructure.Type_Player._SttPetXuatChien = "SttPetXuatChien";
+				DataStructure.Type_Player._Pk = "Pk";
+				DataStructure.Type_Player._ThamChien = "ThamChien";
 			}
 		}
 		public struct Type_Skill
@@ -693,28 +609,26 @@ namespace Server_TS_Online
 			public static string _Combo;
 			public static string _Delay;
 			public static string _TroiBuff;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Skill()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Skill._ID = JuneClass02.lxGHuH450(25818);
-				DataStructure.Type_Skill._Sp = JuneClass02.lxGHuH450(25826);
-				DataStructure.Type_Skill._Point = JuneClass02.lxGHuH450(25834);
-				DataStructure.Type_Skill._Thuoctinh = JuneClass02.lxGHuH450(25848);
-				DataStructure.Type_Skill._IdDK1 = JuneClass02.lxGHuH450(25870);
-				DataStructure.Type_Skill._IdDK2 = JuneClass02.lxGHuH450(25884);
-				DataStructure.Type_Skill._IdDK3 = JuneClass02.lxGHuH450(25898);
-				DataStructure.Type_Skill._IdDK4 = JuneClass02.lxGHuH450(25912);
-				DataStructure.Type_Skill._IdDK5 = JuneClass02.lxGHuH450(25926);
-				DataStructure.Type_Skill._IdDK6 = JuneClass02.lxGHuH450(25940);
-				DataStructure.Type_Skill._LvMax = JuneClass02.lxGHuH450(25954);
-				DataStructure.Type_Skill._Type = JuneClass02.lxGHuH450(25968);
-				DataStructure.Type_Skill._DoManh = JuneClass02.lxGHuH450(25980);
-				DataStructure.Type_Skill._SLdanh = JuneClass02.lxGHuH450(25996);
-				DataStructure.Type_Skill._Reborn = JuneClass02.lxGHuH450(26012);
-				DataStructure.Type_Skill._Combo = JuneClass02.lxGHuH450(26028);
-				DataStructure.Type_Skill._Delay = JuneClass02.lxGHuH450(26042);
-				DataStructure.Type_Skill._TroiBuff = JuneClass02.lxGHuH450(26056);
+				DataStructure.Type_Skill._ID = "Id";
+				DataStructure.Type_Skill._Sp = "Sp";
+				DataStructure.Type_Skill._Point = "Point";
+				DataStructure.Type_Skill._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Skill._IdDK1 = "IdDK1";
+				DataStructure.Type_Skill._IdDK2 = "IdDK2";
+				DataStructure.Type_Skill._IdDK3 = "IdDK3";
+				DataStructure.Type_Skill._IdDK4 = "IdDK4";
+				DataStructure.Type_Skill._IdDK5 = "IdDK5";
+				DataStructure.Type_Skill._IdDK6 = "IdDK6";
+				DataStructure.Type_Skill._LvMax = "LvMax";
+				DataStructure.Type_Skill._Type = "Type";
+				DataStructure.Type_Skill._DoManh = "DoManh";
+				DataStructure.Type_Skill._SLdanh = "SLdanh";
+				DataStructure.Type_Skill._Reborn = "Reborn";
+				DataStructure.Type_Skill._Combo = "Combo";
+				DataStructure.Type_Skill._Delay = "Delay";
+				DataStructure.Type_Skill._TroiBuff = "TroiBuff";
 			}
 		}
 		public struct Type_BattleGate
@@ -731,22 +645,20 @@ namespace Server_TS_Online
 			public static string _8;
 			public static string _9;
 			public static string _10;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_BattleGate()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_BattleGate._Id = JuneClass02.lxGHuH450(26076);
-				DataStructure.Type_BattleGate._Diahinh = JuneClass02.lxGHuH450(26084);
-				DataStructure.Type_BattleGate._1 = JuneClass02.lxGHuH450(26102);
-				DataStructure.Type_BattleGate._2 = JuneClass02.lxGHuH450(26108);
-				DataStructure.Type_BattleGate._3 = JuneClass02.lxGHuH450(26114);
-				DataStructure.Type_BattleGate._4 = JuneClass02.lxGHuH450(26120);
-				DataStructure.Type_BattleGate._5 = JuneClass02.lxGHuH450(26126);
-				DataStructure.Type_BattleGate._6 = JuneClass02.lxGHuH450(26132);
-				DataStructure.Type_BattleGate._7 = JuneClass02.lxGHuH450(26138);
-				DataStructure.Type_BattleGate._8 = JuneClass02.lxGHuH450(26144);
-				DataStructure.Type_BattleGate._9 = JuneClass02.lxGHuH450(26150);
-				DataStructure.Type_BattleGate._10 = JuneClass02.lxGHuH450(26156);
+				DataStructure.Type_BattleGate._Id = "Id";
+				DataStructure.Type_BattleGate._Diahinh = "Diahinh";
+				DataStructure.Type_BattleGate._1 = "1";
+				DataStructure.Type_BattleGate._2 = "2";
+				DataStructure.Type_BattleGate._3 = "3";
+				DataStructure.Type_BattleGate._4 = "4";
+				DataStructure.Type_BattleGate._5 = "5";
+				DataStructure.Type_BattleGate._6 = "6";
+				DataStructure.Type_BattleGate._7 = "7";
+				DataStructure.Type_BattleGate._8 = "8";
+				DataStructure.Type_BattleGate._9 = "9";
+				DataStructure.Type_BattleGate._10 = "10";
 			}
 		}
 		public struct Type_Battle
@@ -790,49 +702,47 @@ namespace Server_TS_Online
 			public static string _Type19_Turn;
 			public static string _Attacked;
 			public static string _Exp;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Battle()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Battle._Type = JuneClass02.lxGHuH450(26164);
-				DataStructure.Type_Battle._Id = JuneClass02.lxGHuH450(26176);
-				DataStructure.Type_Battle._IdNpcOnMap = JuneClass02.lxGHuH450(26184);
-				DataStructure.Type_Battle._IdChar = JuneClass02.lxGHuH450(26208);
-				DataStructure.Type_Battle._Row = JuneClass02.lxGHuH450(26224);
-				DataStructure.Type_Battle._Column = JuneClass02.lxGHuH450(26234);
-				DataStructure.Type_Battle._HpMax = JuneClass02.lxGHuH450(26250);
-				DataStructure.Type_Battle._SpMax = JuneClass02.lxGHuH450(26264);
-				DataStructure.Type_Battle._Hp = JuneClass02.lxGHuH450(26278);
-				DataStructure.Type_Battle._Sp = JuneClass02.lxGHuH450(26286);
-				DataStructure.Type_Battle._Lv = JuneClass02.lxGHuH450(26294);
-				DataStructure.Type_Battle._Thuoctinh = JuneClass02.lxGHuH450(26302);
-				DataStructure.Type_Battle._LeaderId = JuneClass02.lxGHuH450(26324);
-				DataStructure.Type_Battle._IdSkill = JuneClass02.lxGHuH450(26344);
-				DataStructure.Type_Battle._RowAttack = JuneClass02.lxGHuH450(26362);
-				DataStructure.Type_Battle._ColumnAttack = JuneClass02.lxGHuH450(26384);
-				DataStructure.Type_Battle._Int = JuneClass02.lxGHuH450(26412);
-				DataStructure.Type_Battle._Atk = JuneClass02.lxGHuH450(26422);
-				DataStructure.Type_Battle._Def = JuneClass02.lxGHuH450(26432);
-				DataStructure.Type_Battle._Agi = JuneClass02.lxGHuH450(26442);
-				DataStructure.Type_Battle._Team = JuneClass02.lxGHuH450(26452);
-				DataStructure.Type_Battle._Packet = JuneClass02.lxGHuH450(26464);
-				DataStructure.Type_Battle._Random = JuneClass02.lxGHuH450(26480);
-				DataStructure.Type_Battle._LvSKill = JuneClass02.lxGHuH450(26496);
-				DataStructure.Type_Battle._Reborn = JuneClass02.lxGHuH450(26514);
-				DataStructure.Type_Battle._Type3_Id = JuneClass02.lxGHuH450(26530);
-				DataStructure.Type_Battle._Type3_Lv = JuneClass02.lxGHuH450(26550);
-				DataStructure.Type_Battle._Type3_Turn = JuneClass02.lxGHuH450(26570);
-				DataStructure.Type_Battle._Type4_Id = JuneClass02.lxGHuH450(26594);
-				DataStructure.Type_Battle._Type4_Lv = JuneClass02.lxGHuH450(26614);
-				DataStructure.Type_Battle._Type4_Turn = JuneClass02.lxGHuH450(26634);
-				DataStructure.Type_Battle._Type15_Id = JuneClass02.lxGHuH450(26658);
-				DataStructure.Type_Battle._Type15_Lv = JuneClass02.lxGHuH450(26680);
-				DataStructure.Type_Battle._Type15_Turn = JuneClass02.lxGHuH450(26702);
-				DataStructure.Type_Battle._Type19_Id = JuneClass02.lxGHuH450(26728);
-				DataStructure.Type_Battle._Type19_Lv = JuneClass02.lxGHuH450(26750);
-				DataStructure.Type_Battle._Type19_Turn = JuneClass02.lxGHuH450(26772);
-				DataStructure.Type_Battle._Attacked = JuneClass02.lxGHuH450(26798);
-				DataStructure.Type_Battle._Exp = JuneClass02.lxGHuH450(26818);
+				DataStructure.Type_Battle._Type = "Type";
+				DataStructure.Type_Battle._Id = "Id";
+				DataStructure.Type_Battle._IdNpcOnMap = "IdNpcOnMap";
+				DataStructure.Type_Battle._IdChar = "IdChar";
+				DataStructure.Type_Battle._Row = "Row";
+				DataStructure.Type_Battle._Column = "Column";
+				DataStructure.Type_Battle._HpMax = "HpMax";
+				DataStructure.Type_Battle._SpMax = "SpMax";
+				DataStructure.Type_Battle._Hp = "Hp";
+				DataStructure.Type_Battle._Sp = "Sp";
+				DataStructure.Type_Battle._Lv = "Lv";
+				DataStructure.Type_Battle._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Battle._LeaderId = "LeaderId";
+				DataStructure.Type_Battle._IdSkill = "IdSkill";
+				DataStructure.Type_Battle._RowAttack = "RowAttack";
+				DataStructure.Type_Battle._ColumnAttack = "ColumnAttack";
+				DataStructure.Type_Battle._Int = "Int";
+				DataStructure.Type_Battle._Atk = "Atk";
+				DataStructure.Type_Battle._Def = "Def";
+				DataStructure.Type_Battle._Agi = "Agi";
+				DataStructure.Type_Battle._Team = "Team";
+				DataStructure.Type_Battle._Packet = "Packet";
+				DataStructure.Type_Battle._Random = "Random";
+				DataStructure.Type_Battle._LvSKill = "LvSKill";
+				DataStructure.Type_Battle._Reborn = "Reborn";
+				DataStructure.Type_Battle._Type3_Id = "Type3_Id";
+				DataStructure.Type_Battle._Type3_Lv = "Type3_Lv";
+				DataStructure.Type_Battle._Type3_Turn = "Type3_Turn";
+				DataStructure.Type_Battle._Type4_Id = "Type4_Id";
+				DataStructure.Type_Battle._Type4_Lv = "Type4_Lv";
+				DataStructure.Type_Battle._Type4_Turn = "Type4_Turn";
+				DataStructure.Type_Battle._Type15_Id = "Type15_Id";
+				DataStructure.Type_Battle._Type15_Lv = "Type15_Lv";
+				DataStructure.Type_Battle._Type15_Turn = "Type15_Turn";
+				DataStructure.Type_Battle._Type19_Id = "Type19_Id";
+				DataStructure.Type_Battle._Type19_Lv = "Type19_Lv";
+				DataStructure.Type_Battle._Type19_Turn = "Type19_Turn";
+				DataStructure.Type_Battle._Attacked = "Attacked";
+				DataStructure.Type_Battle._Exp = "Exp";
 			}
 		}
 		public struct Type_MySkill
@@ -841,14 +751,12 @@ namespace Server_TS_Online
 			public static string _Lv;
 			public static string _Sp;
 			public static string _Save;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_MySkill()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_MySkill._Id = JuneClass02.lxGHuH450(26828);
-				DataStructure.Type_MySkill._Lv = JuneClass02.lxGHuH450(26836);
-				DataStructure.Type_MySkill._Sp = JuneClass02.lxGHuH450(26844);
-				DataStructure.Type_MySkill._Save = JuneClass02.lxGHuH450(26852);
+				DataStructure.Type_MySkill._Id = "Id";
+				DataStructure.Type_MySkill._Lv = "Lv";
+				DataStructure.Type_MySkill._Sp = "Sp";
+				DataStructure.Type_MySkill._Save = "Save";
 			}
 		}
 		public struct Type_StatusAttack_Def_Lantranh
@@ -856,10 +764,8 @@ namespace Server_TS_Online
 			public static int _Attack;
 			public static int _Def;
 			public static int _Lantranh;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_StatusAttack_Def_Lantranh()
 			{
-				JuneClass02.UUCbAVAAM();
 				DataStructure.Type_StatusAttack_Def_Lantranh._Attack = 0;
 				DataStructure.Type_StatusAttack_Def_Lantranh._Def = 1;
 				DataStructure.Type_StatusAttack_Def_Lantranh._Lantranh = 2;
@@ -869,10 +775,8 @@ namespace Server_TS_Online
 		{
 			public static int _Attack;
 			public static int _Miss;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_StatusAttackMiss()
 			{
-				JuneClass02.UUCbAVAAM();
 				DataStructure.Type_StatusAttackMiss._Attack = 1;
 				DataStructure.Type_StatusAttackMiss._Miss = 0;
 			}
@@ -881,10 +785,8 @@ namespace Server_TS_Online
 		{
 			public static int _Attack;
 			public static int _Buff;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_StatusBuffHpSP()
 			{
-				JuneClass02.UUCbAVAAM();
 				DataStructure.Type_StatusBuffHpSP._Attack = 1;
 				DataStructure.Type_StatusBuffHpSP._Buff = 0;
 			}
@@ -899,10 +801,8 @@ namespace Server_TS_Online
 			public static int _Hp;
 			public static int _Sp;
 			public static int _Hochu;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_StatusTroiBuffHpSp()
 			{
-				JuneClass02.UUCbAVAAM();
 				DataStructure.Type_StatusTroiBuffHpSp._Miss = 0;
 				DataStructure.Type_StatusTroiBuffHpSp._Type3 = 221;
 				DataStructure.Type_StatusTroiBuffHpSp._Type4 = 222;
@@ -919,10 +819,8 @@ namespace Server_TS_Online
 			public static int _Type4;
 			public static int _Type15;
 			public static int _Type19;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_TroiBuffEnd()
 			{
-				JuneClass02.UUCbAVAAM();
 				DataStructure.Type_TroiBuffEnd._Type3 = 1;
 				DataStructure.Type_TroiBuffEnd._Type4 = 2;
 				DataStructure.Type_TroiBuffEnd._Type15 = 3;
@@ -958,37 +856,35 @@ namespace Server_TS_Online
 			public static string _GiatriThuoctinh;
 			public static string _Loai;
 			public static string _TExp;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Homdo()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Homdo._ID = JuneClass02.lxGHuH450(26864);
-				DataStructure.Type_Homdo._Count = JuneClass02.lxGHuH450(26872);
-				DataStructure.Type_Homdo._Lv = JuneClass02.lxGHuH450(26886);
-				DataStructure.Type_Homdo._Doben = JuneClass02.lxGHuH450(26894);
-				DataStructure.Type_Homdo._Int1 = JuneClass02.lxGHuH450(26908);
-				DataStructure.Type_Homdo._Atk1 = JuneClass02.lxGHuH450(26920);
-				DataStructure.Type_Homdo._Def1 = JuneClass02.lxGHuH450(26932);
-				DataStructure.Type_Homdo._Hpx1 = JuneClass02.lxGHuH450(26944);
-				DataStructure.Type_Homdo._Spx1 = JuneClass02.lxGHuH450(26956);
-				DataStructure.Type_Homdo._Agi1 = JuneClass02.lxGHuH450(26968);
-				DataStructure.Type_Homdo._Fai1 = JuneClass02.lxGHuH450(26980);
-				DataStructure.Type_Homdo._Int2 = JuneClass02.lxGHuH450(26992);
-				DataStructure.Type_Homdo._Atk2 = JuneClass02.lxGHuH450(27004);
-				DataStructure.Type_Homdo._Def2 = JuneClass02.lxGHuH450(27016);
-				DataStructure.Type_Homdo._Hpx2 = JuneClass02.lxGHuH450(27028);
-				DataStructure.Type_Homdo._Spx2 = JuneClass02.lxGHuH450(27040);
-				DataStructure.Type_Homdo._Agi2 = JuneClass02.lxGHuH450(27052);
-				DataStructure.Type_Homdo._Fai2 = JuneClass02.lxGHuH450(27064);
-				DataStructure.Type_Homdo._Hp = JuneClass02.lxGHuH450(27076);
-				DataStructure.Type_Homdo._Sp = JuneClass02.lxGHuH450(27084);
-				DataStructure.Type_Homdo._Long = JuneClass02.lxGHuH450(27092);
-				DataStructure.Type_Homdo._GiatriLong = JuneClass02.lxGHuH450(27104);
-				DataStructure.Type_Homdo._Khang = JuneClass02.lxGHuH450(27128);
-				DataStructure.Type_Homdo._Thuoctinh = JuneClass02.lxGHuH450(27142);
-				DataStructure.Type_Homdo._GiatriThuoctinh = JuneClass02.lxGHuH450(27164);
-				DataStructure.Type_Homdo._Loai = JuneClass02.lxGHuH450(27198);
-				DataStructure.Type_Homdo._TExp = JuneClass02.lxGHuH450(27210);
+				DataStructure.Type_Homdo._ID = "Id";
+				DataStructure.Type_Homdo._Count = "Count";
+				DataStructure.Type_Homdo._Lv = "Lv";
+				DataStructure.Type_Homdo._Doben = "Doben";
+				DataStructure.Type_Homdo._Int1 = "Int1";
+				DataStructure.Type_Homdo._Atk1 = "Atk1";
+				DataStructure.Type_Homdo._Def1 = "Def1";
+				DataStructure.Type_Homdo._Hpx1 = "Hpx1";
+				DataStructure.Type_Homdo._Spx1 = "Spx1";
+				DataStructure.Type_Homdo._Agi1 = "Agi1";
+				DataStructure.Type_Homdo._Fai1 = "Fai1";
+				DataStructure.Type_Homdo._Int2 = "Int2";
+				DataStructure.Type_Homdo._Atk2 = "Atk2";
+				DataStructure.Type_Homdo._Def2 = "Def2";
+				DataStructure.Type_Homdo._Hpx2 = "Hpx2";
+				DataStructure.Type_Homdo._Spx2 = "Spx2";
+				DataStructure.Type_Homdo._Agi2 = "Agi2";
+				DataStructure.Type_Homdo._Fai2 = "Fai2";
+				DataStructure.Type_Homdo._Hp = "Hp";
+				DataStructure.Type_Homdo._Sp = "Sp";
+				DataStructure.Type_Homdo._Long = "Long";
+				DataStructure.Type_Homdo._GiatriLong = "GiatriLong";
+				DataStructure.Type_Homdo._Khang = "Khang";
+				DataStructure.Type_Homdo._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Homdo._GiatriThuoctinh = "GiatriThuoctinh";
+				DataStructure.Type_Homdo._Loai = "Loai";
+				DataStructure.Type_Homdo._TExp = "TExp";
 			}
 		}
 		public struct Type_Thung
@@ -997,14 +893,12 @@ namespace Server_TS_Online
 			public static string _Homdo;
 			public static string _Tuideo;
 			public static string _Luulang;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Thung()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Thung._Trangbi = JuneClass02.lxGHuH450(27222);
-				DataStructure.Type_Thung._Homdo = JuneClass02.lxGHuH450(27240);
-				DataStructure.Type_Thung._Tuideo = JuneClass02.lxGHuH450(27254);
-				DataStructure.Type_Thung._Luulang = JuneClass02.lxGHuH450(27270);
+				DataStructure.Type_Thung._Trangbi = "Trangbi";
+				DataStructure.Type_Thung._Homdo = "Homdo";
+				DataStructure.Type_Thung._Tuideo = "Tuideo";
+				DataStructure.Type_Thung._Luulang = "Luulang";
 			}
 		}
 		public struct Type_Item
@@ -1031,32 +925,30 @@ namespace Server_TS_Online
 			public static string _Thuoctinh;
 			public static string _GiatriThuoctinh;
 			public static string _Loai;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Item()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Item._id = JuneClass02.lxGHuH450(27288);
-				DataStructure.Type_Item._Name = JuneClass02.lxGHuH450(27296);
-				DataStructure.Type_Item._Lv = JuneClass02.lxGHuH450(27308);
-				DataStructure.Type_Item._Hp = JuneClass02.lxGHuH450(27316);
-				DataStructure.Type_Item._Sp = JuneClass02.lxGHuH450(27324);
-				DataStructure.Type_Item._Int1 = JuneClass02.lxGHuH450(27332);
-				DataStructure.Type_Item._Atk1 = JuneClass02.lxGHuH450(27344);
-				DataStructure.Type_Item._Def1 = JuneClass02.lxGHuH450(27356);
-				DataStructure.Type_Item._Hpx1 = JuneClass02.lxGHuH450(27368);
-				DataStructure.Type_Item._Spx1 = JuneClass02.lxGHuH450(27380);
-				DataStructure.Type_Item._Agi1 = JuneClass02.lxGHuH450(27392);
-				DataStructure.Type_Item._Fai1 = JuneClass02.lxGHuH450(27404);
-				DataStructure.Type_Item._Int2 = JuneClass02.lxGHuH450(27416);
-				DataStructure.Type_Item._Atk2 = JuneClass02.lxGHuH450(27428);
-				DataStructure.Type_Item._Def2 = JuneClass02.lxGHuH450(27440);
-				DataStructure.Type_Item._Hpx2 = JuneClass02.lxGHuH450(27452);
-				DataStructure.Type_Item._Spx2 = JuneClass02.lxGHuH450(27464);
-				DataStructure.Type_Item._Agi2 = JuneClass02.lxGHuH450(27476);
-				DataStructure.Type_Item._Fai2 = JuneClass02.lxGHuH450(27488);
-				DataStructure.Type_Item._Thuoctinh = JuneClass02.lxGHuH450(27500);
-				DataStructure.Type_Item._GiatriThuoctinh = JuneClass02.lxGHuH450(27522);
-				DataStructure.Type_Item._Loai = JuneClass02.lxGHuH450(27556);
+				DataStructure.Type_Item._id = "id";
+				DataStructure.Type_Item._Name = "Name";
+				DataStructure.Type_Item._Lv = "Lv";
+				DataStructure.Type_Item._Hp = "Hp";
+				DataStructure.Type_Item._Sp = "Sp";
+				DataStructure.Type_Item._Int1 = "Int1";
+				DataStructure.Type_Item._Atk1 = "Atk1";
+				DataStructure.Type_Item._Def1 = "Def1";
+				DataStructure.Type_Item._Hpx1 = "Hpx1";
+				DataStructure.Type_Item._Spx1 = "Spx1";
+				DataStructure.Type_Item._Agi1 = "Agi1";
+				DataStructure.Type_Item._Fai1 = "Fai1";
+				DataStructure.Type_Item._Int2 = "Int2";
+				DataStructure.Type_Item._Atk2 = "Atk2";
+				DataStructure.Type_Item._Def2 = "Def2";
+				DataStructure.Type_Item._Hpx2 = "Hpx2";
+				DataStructure.Type_Item._Spx2 = "Spx2";
+				DataStructure.Type_Item._Agi2 = "Agi2";
+				DataStructure.Type_Item._Fai2 = "Fai2";
+				DataStructure.Type_Item._Thuoctinh = "Thuoctinh";
+				DataStructure.Type_Item._GiatriThuoctinh = "GiatriThuoctinh";
+				DataStructure.Type_Item._Loai = "Loai";
 			}
 		}
 		public struct Type_Warp
@@ -1066,19 +958,13 @@ namespace Server_TS_Online
 			public static string _MapId2;
 			public static string _X;
 			public static string _Y;
-			public static string _Goxnhin;
-			public static string _Battle;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Warp()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Warp._MapId1 = JuneClass02.lxGHuH450(27568);
-				DataStructure.Type_Warp._WarpId = JuneClass02.lxGHuH450(27584);
-				DataStructure.Type_Warp._MapId2 = JuneClass02.lxGHuH450(27600);
-				DataStructure.Type_Warp._X = JuneClass02.lxGHuH450(27616);
-				DataStructure.Type_Warp._Y = JuneClass02.lxGHuH450(27622);
-				DataStructure.Type_Warp._Goxnhin = JuneClass02.lxGHuH450(27628);
-				DataStructure.Type_Warp._Battle = JuneClass02.lxGHuH450(27646);
+				DataStructure.Type_Warp._MapId1 = "MapId1";
+				DataStructure.Type_Warp._WarpId = "WarpId";
+				DataStructure.Type_Warp._MapId2 = "MapId2";
+				DataStructure.Type_Warp._X = "X";
+				DataStructure.Type_Warp._Y = "Y";
 			}
 		}
 		public struct Type_NpcOnMap
@@ -1094,21 +980,19 @@ namespace Server_TS_Online
 			public static string _X_First;
 			public static string _Y_First;
 			public static string _IdBattle;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_NpcOnMap()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_NpcOnMap._MapId = JuneClass02.lxGHuH450(27662);
-				DataStructure.Type_NpcOnMap._Id = JuneClass02.lxGHuH450(27676);
-				DataStructure.Type_NpcOnMap._NpcId = JuneClass02.lxGHuH450(27684);
-				DataStructure.Type_NpcOnMap._X = JuneClass02.lxGHuH450(27698);
-				DataStructure.Type_NpcOnMap._Y = JuneClass02.lxGHuH450(27704);
-				DataStructure.Type_NpcOnMap._Coord = JuneClass02.lxGHuH450(27710);
-				DataStructure.Type_NpcOnMap._SoLuong = JuneClass02.lxGHuH450(27724);
-				DataStructure.Type_NpcOnMap._Delay = JuneClass02.lxGHuH450(27742);
-				DataStructure.Type_NpcOnMap._X_First = JuneClass02.lxGHuH450(27756);
-				DataStructure.Type_NpcOnMap._Y_First = JuneClass02.lxGHuH450(27774);
-				DataStructure.Type_NpcOnMap._IdBattle = JuneClass02.lxGHuH450(27792);
+				DataStructure.Type_NpcOnMap._MapId = "MapId";
+				DataStructure.Type_NpcOnMap._Id = "Id";
+				DataStructure.Type_NpcOnMap._NpcId = "NpcId";
+				DataStructure.Type_NpcOnMap._X = "X";
+				DataStructure.Type_NpcOnMap._Y = "Y";
+				DataStructure.Type_NpcOnMap._Coord = "Coord";
+				DataStructure.Type_NpcOnMap._SoLuong = "SoLuong";
+				DataStructure.Type_NpcOnMap._Delay = "Delay";
+				DataStructure.Type_NpcOnMap._X_First = "X_First";
+				DataStructure.Type_NpcOnMap._Y_First = "Y_First";
+				DataStructure.Type_NpcOnMap._IdBattle = "IdBattle";
 			}
 		}
 		public struct Type_ItemOnMap
@@ -1120,17 +1004,15 @@ namespace Server_TS_Online
 			public static string _Y;
 			public static string _Delay;
 			public static string _DelayDec;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_ItemOnMap()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_ItemOnMap._MapId = JuneClass02.lxGHuH450(27812);
-				DataStructure.Type_ItemOnMap._Id = JuneClass02.lxGHuH450(27826);
-				DataStructure.Type_ItemOnMap._ItemId = JuneClass02.lxGHuH450(27834);
-				DataStructure.Type_ItemOnMap._X = JuneClass02.lxGHuH450(27850);
-				DataStructure.Type_ItemOnMap._Y = JuneClass02.lxGHuH450(27856);
-				DataStructure.Type_ItemOnMap._Delay = JuneClass02.lxGHuH450(27862);
-				DataStructure.Type_ItemOnMap._DelayDec = JuneClass02.lxGHuH450(27876);
+				DataStructure.Type_ItemOnMap._MapId = "MapId";
+				DataStructure.Type_ItemOnMap._Id = "Id";
+				DataStructure.Type_ItemOnMap._ItemId = "ItemId";
+				DataStructure.Type_ItemOnMap._X = "X";
+				DataStructure.Type_ItemOnMap._Y = "Y";
+				DataStructure.Type_ItemOnMap._Delay = "Delay";
+				DataStructure.Type_ItemOnMap._DelayDec = "DelayDec";
 			}
 		}
 		public struct Type_GetHp
@@ -1141,16 +1023,14 @@ namespace Server_TS_Online
 			public static string _HPTs2;
 			public static string _HPTs3;
 			public static string _HPTs4;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_GetHp()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_GetHp._Hp = JuneClass02.lxGHuH450(27896);
-				DataStructure.Type_GetHp._HpCs = JuneClass02.lxGHuH450(27918);
-				DataStructure.Type_GetHp._HPTs1 = JuneClass02.lxGHuH450(27944);
-				DataStructure.Type_GetHp._HPTs2 = JuneClass02.lxGHuH450(27972);
-				DataStructure.Type_GetHp._HPTs3 = JuneClass02.lxGHuH450(28000);
-				DataStructure.Type_GetHp._HPTs4 = JuneClass02.lxGHuH450(28028);
+				DataStructure.Type_GetHp._Hp = "FormulaHP";
+				DataStructure.Type_GetHp._HpCs = "FormulaHPCS";
+				DataStructure.Type_GetHp._HPTs1 = "FormulaHPTS1";
+				DataStructure.Type_GetHp._HPTs2 = "FormulaHPTS2";
+				DataStructure.Type_GetHp._HPTs3 = "FormulaHPTS3";
+				DataStructure.Type_GetHp._HPTs4 = "FormulaHPTS4";
 			}
 		}
 		public struct Type_GetSp
@@ -1161,16 +1041,14 @@ namespace Server_TS_Online
 			public static string _SPTs2;
 			public static string _SPTs3;
 			public static string _SPTs4;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_GetSp()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_GetSp._Sp = JuneClass02.lxGHuH450(28056);
-				DataStructure.Type_GetSp._SPCS = JuneClass02.lxGHuH450(28078);
-				DataStructure.Type_GetSp._SPTs1 = JuneClass02.lxGHuH450(28104);
-				DataStructure.Type_GetSp._SPTs2 = JuneClass02.lxGHuH450(28132);
-				DataStructure.Type_GetSp._SPTs3 = JuneClass02.lxGHuH450(28160);
-				DataStructure.Type_GetSp._SPTs4 = JuneClass02.lxGHuH450(28188);
+				DataStructure.Type_GetSp._Sp = "FormulaSP";
+				DataStructure.Type_GetSp._SPCS = "FormulaSPCS";
+				DataStructure.Type_GetSp._SPTs1 = "FormulaSPTS1";
+				DataStructure.Type_GetSp._SPTs2 = "FormulaSPTS2";
+				DataStructure.Type_GetSp._SPTs3 = "FormulaSPTS3";
+				DataStructure.Type_GetSp._SPTs4 = "FormulaSPTS4";
 			}
 		}
 		public struct Type_Talk
@@ -1179,19 +1057,13 @@ namespace Server_TS_Online
 			public static string _Type;
 			public static string _Id;
 			public static string _Count;
-			[MethodImpl(MethodImplOptions.NoInlining)]
 			static Type_Talk()
 			{
-				JuneClass02.UUCbAVAAM();
-				DataStructure.Type_Talk._MapId = JuneClass02.lxGHuH450(28216);
-				DataStructure.Type_Talk._Type = JuneClass02.lxGHuH450(28230);
-				DataStructure.Type_Talk._Id = JuneClass02.lxGHuH450(28242);
-				DataStructure.Type_Talk._Count = JuneClass02.lxGHuH450(28250);
+				DataStructure.Type_Talk._MapId = "MapId";
+				DataStructure.Type_Talk._Type = "Type";
+				DataStructure.Type_Talk._Id = "Id";
+				DataStructure.Type_Talk._Count = "Count";
 			}
-		}
-		static DataStructure()
-		{
-			JuneClass02.UUCbAVAAM();
 		}
 	}
 }

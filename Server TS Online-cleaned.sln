@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server TS Online", "Server TS Online.csproj", "{9A852819-59D4-41C7-8DBF-6133396AC541}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server TS Online-cleaned", "Server TS Online-cleaned.csproj", "{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A852819-59D4-41C7-8DBF-6133396AC541}.Debug|x86.ActiveCfg = Debug|x86
-		{9A852819-59D4-41C7-8DBF-6133396AC541}.Debug|x86.Build.0 = Debug|x86
-		{9A852819-59D4-41C7-8DBF-6133396AC541}.Release|x86.ActiveCfg = Release|x86
-		{9A852819-59D4-41C7-8DBF-6133396AC541}.Release|x86.Build.0 = Release|x86
+		{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}.Debug|x86.ActiveCfg = Debug|x86
+		{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}.Debug|x86.Build.0 = Debug|x86
+		{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}.Release|x86.ActiveCfg = Release|x86
+		{14B0088F-4FA2-4BF0-8DB3-EB3A363DE88B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
